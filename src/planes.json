@@ -20,7 +20,9 @@
       "png": "https://cards.scryfall.io/png/front/a/1/a1c7f2eb-0654-46f9-ae3d-11efcac837b8.png?1547432330",
       "art_crop": "https://cards.scryfall.io/art_crop/front/a/1/a1c7f2eb-0654-46f9-ae3d-11efcac837b8.jpg?1547432330",
       "border_crop": "https://cards.scryfall.io/border_crop/front/a/1/a1c7f2eb-0654-46f9-ae3d-11efcac837b8.jpg?1547432330"
-    }
+    },
+    "type_line": "Plane — Zendikar",
+    "oracle_text": "Players may cast enchantment spells as though they had flash.\nWhenever chaos ensues, destroy target creature that isn't enchanted."
   },
   {
     "object": "card",
@@ -43,7 +45,9 @@
       "png": "https://cards.scryfall.io/png/front/6/c/6caf8b21-1807-442c-a461-c89c7591df70.png?1547432309",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/c/6caf8b21-1807-442c-a461-c89c7591df70.jpg?1547432309",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/c/6caf8b21-1807-442c-a461-c89c7591df70.jpg?1547432309"
-    }
+    },
+    "type_line": "Plane — Ravnica",
+    "oracle_text": "Whenever a white creature dies, return it to the battlefield under its owner's control at the beginning of the next end step.\nWhenever a nonwhite creature dies, return it to its owner's hand at the beginning of the next end step.\nWhenever chaos ensues, creatures can't attack you until a player planeswalks."
   },
   {
     "object": "card",
@@ -69,7 +73,9 @@
       "png": "https://cards.scryfall.io/png/front/e/d/ed4f4210-9871-4cec-9b46-100c80f93cd4.png?1645050357",
       "art_crop": "https://cards.scryfall.io/art_crop/front/e/d/ed4f4210-9871-4cec-9b46-100c80f93cd4.jpg?1645050357",
       "border_crop": "https://cards.scryfall.io/border_crop/front/e/d/ed4f4210-9871-4cec-9b46-100c80f93cd4.jpg?1645050357"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "At the beginning of your end step, if you have no cards in hand, draw seven cards.\nWhenever chaos ensues, discard your hand."
   },
   {
     "object": "card",
@@ -95,7 +101,9 @@
       "png": "https://cards.scryfall.io/png/front/d/6/d6dc655e-d8ef-443a-bb3e-46c7ca1555ba.png?1547432302",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/6/d6dc655e-d8ef-443a-bb3e-46c7ca1555ba.jpg?1547432302",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/6/d6dc655e-d8ef-443a-bb3e-46c7ca1555ba.jpg?1547432302"
-    }
+    },
+    "type_line": "Plane — Kephalai",
+    "oracle_text": "When you planeswalk to Aretopolis or at the beginning of your upkeep, put a scroll counter on Aretopolis, then you gain life equal to the number of scroll counters on it.\nWhen Aretopolis has ten or more scroll counters on it, planeswalk.\nWhenever chaos ensues, put a scroll counter on Aretopolis, then draw cards equal to the number of scroll counters on it."
   },
   {
     "object": "card",
@@ -121,7 +129,9 @@
       "png": "https://cards.scryfall.io/png/front/5/6/56c735c0-9346-431b-869f-3accfa193016.png?1547432337",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/6/56c735c0-9346-431b-869f-3accfa193016.jpg?1547432337",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/6/56c735c0-9346-431b-869f-3accfa193016.jpg?1547432337"
-    }
+    },
+    "type_line": "Plane — Kolbahan",
+    "oracle_text": "No more than one creature can attack each combat.\nNo more than one creature can block each combat.\nWhenever chaos ensues, Astral Arena deals 2 damage to each creature."
   },
   {
     "object": "card",
@@ -147,7 +157,9 @@
       "png": "https://cards.scryfall.io/png/front/4/3/434a2d09-5776-4168-b863-f3b0a736d19b.png?1547432701",
       "art_crop": "https://cards.scryfall.io/art_crop/front/4/3/434a2d09-5776-4168-b863-f3b0a736d19b.jpg?1547432701",
       "border_crop": "https://cards.scryfall.io/border_crop/front/4/3/434a2d09-5776-4168-b863-f3b0a736d19b.jpg?1547432701"
-    }
+    },
+    "type_line": "Plane — Alara",
+    "oracle_text": "All creatures have exalted. (Whenever a creature attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents its controller controls.)\nWhenever chaos ensues, put a divinity counter on target green, white, or blue creature. That creature has indestructible for as long as it has a divinity counter on it."
   },
   {
     "object": "card",
@@ -173,7 +185,9 @@
       "png": "https://cards.scryfall.io/png/front/0/c/0cf339cb-04c0-40e8-a64c-b80229a32cec.png?1547432757",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/c/0cf339cb-04c0-40e8-a64c-b80229a32cec.jpg?1547432757",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/c/0cf339cb-04c0-40e8-a64c-b80229a32cec.jpg?1547432757"
-    }
+    },
+    "type_line": "Plane — Luvion",
+    "oracle_text": "Creatures without flying or islandwalk can't attack.\nWhenever chaos ensues, until a player planeswalks, you can't lose the game and your opponents can't win the game."
   },
   {
     "object": "card",
@@ -199,7 +213,9 @@
       "png": "https://cards.scryfall.io/png/front/f/f/ff65643b-e8bb-49d6-8887-13a146ee5174.png?1547432708",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/f/ff65643b-e8bb-49d6-8887-13a146ee5174.jpg?1547432708",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/f/ff65643b-e8bb-49d6-8887-13a146ee5174.jpg?1547432708"
-    }
+    },
+    "type_line": "Plane — Mercadia",
+    "oracle_text": "When you planeswalk to Cliffside Market or at the beginning of your upkeep, you may exchange life totals with target player.\nWhenever chaos ensues, exchange control of two target permanents that share a card type."
   },
   {
     "object": "card",
@@ -225,7 +241,9 @@
       "png": "https://cards.scryfall.io/png/front/0/b/0b8a0cad-92df-45a1-a3cc-561be2f06778.png?1547432232",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/b/0b8a0cad-92df-45a1-a3cc-561be2f06778.jpg?1547432232",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/b/0b8a0cad-92df-45a1-a3cc-561be2f06778.jpg?1547432232"
-    }
+    },
+    "type_line": "Plane — Ulgrotha",
+    "oracle_text": "Whenever a nonblack card is put into a player's graveyard from anywhere, that player loses 1 life.\nWhenever chaos ensues, each opponent discards a card."
   },
   {
     "object": "card",
@@ -251,7 +269,9 @@
       "png": "https://cards.scryfall.io/png/front/c/a/ca4c429a-ca40-4656-aea5-86eb450e47b7.png?1547432589",
       "art_crop": "https://cards.scryfall.io/art_crop/front/c/a/ca4c429a-ca40-4656-aea5-86eb450e47b7.jpg?1547432589",
       "border_crop": "https://cards.scryfall.io/border_crop/front/c/a/ca4c429a-ca40-4656-aea5-86eb450e47b7.jpg?1547432589"
-    }
+    },
+    "type_line": "Plane — Belenon",
+    "oracle_text": "If a creature you control would untap during your untap step, put two +1/+1 counters on it instead.\nWhenever chaos ensues, untap each creature you control."
   },
   {
     "object": "card",
@@ -277,7 +297,9 @@
       "png": "https://cards.scryfall.io/png/front/b/e/bec61f7a-cf02-4150-aff9-9465fa14c779.png?1547432617",
       "art_crop": "https://cards.scryfall.io/art_crop/front/b/e/bec61f7a-cf02-4150-aff9-9465fa14c779.jpg?1547432617",
       "border_crop": "https://cards.scryfall.io/border_crop/front/b/e/bec61f7a-cf02-4150-aff9-9465fa14c779.jpg?1547432617"
-    }
+    },
+    "type_line": "Plane — Shandalar",
+    "oracle_text": "Whenever a player taps a permanent for mana, that player adds one mana of any type that permanent produced.\nWhenever chaos ensues, target player can't cast spells until a player planeswalks."
   },
   {
     "object": "card",
@@ -303,7 +325,9 @@
       "png": "https://cards.scryfall.io/png/front/5/0/501268b6-878b-4725-be1f-a64c90f79b87.png?1547432575",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/0/501268b6-878b-4725-be1f-a64c90f79b87.jpg?1547432575",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/0/501268b6-878b-4725-be1f-a64c90f79b87.jpg?1547432575"
-    }
+    },
+    "type_line": "Plane — Equilor",
+    "oracle_text": "Players skip their untap steps.\nWhenever chaos ensues, untap all permanents you control."
   },
   {
     "object": "card",
@@ -329,7 +353,9 @@
       "png": "https://cards.scryfall.io/png/front/1/d/1dde33fa-f748-43c9-9ead-9461332e9e67.png?1547432400",
       "art_crop": "https://cards.scryfall.io/art_crop/front/1/d/1dde33fa-f748-43c9-9ead-9461332e9e67.jpg?1547432400",
       "border_crop": "https://cards.scryfall.io/border_crop/front/1/d/1dde33fa-f748-43c9-9ead-9461332e9e67.jpg?1547432400"
-    }
+    },
+    "type_line": "Plane — Muraganda",
+    "oracle_text": "Red spells cost {1} less to cast.\nGreen spells cost {1} less to cast.\nWhenever chaos ensues, put X +1/+1 counters on target creature, where X is that creature's mana value."
   },
   {
     "object": "card",
@@ -355,7 +381,9 @@
       "png": "https://cards.scryfall.io/png/front/b/5/b52a233b-cc51-4f3e-94d0-a4b75ecb248e.png?1547432568",
       "art_crop": "https://cards.scryfall.io/art_crop/front/b/5/b52a233b-cc51-4f3e-94d0-a4b75ecb248e.jpg?1547432568",
       "border_crop": "https://cards.scryfall.io/border_crop/front/b/5/b52a233b-cc51-4f3e-94d0-a4b75ecb248e.jpg?1547432568"
-    }
+    },
+    "type_line": "Plane — Moag",
+    "oracle_text": "Whenever a player casts a spell, that player may gain 2 life.\nWhenever chaos ensues, you may gain 10 life."
   },
   {
     "object": "card",
@@ -381,7 +409,9 @@
       "png": "https://cards.scryfall.io/png/front/d/e/decef464-d1d3-4459-a1c4-fbad684d5d02.png?1547432413",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/e/decef464-d1d3-4459-a1c4-fbad684d5d02.jpg?1547432413",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/e/decef464-d1d3-4459-a1c4-fbad684d5d02.jpg?1547432413"
-    }
+    },
+    "type_line": "Plane — Phyrexia",
+    "oracle_text": "At the beginning of your upkeep, sacrifice a nonblack creature.\nWhenever chaos ensues, create a 2/2 black Zombie creature token."
   },
   {
     "object": "card",
@@ -407,7 +437,9 @@
       "png": "https://cards.scryfall.io/png/front/d/8/d89133d1-06e7-4b8f-8f42-e0551fd93a5b.png?1547432505",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/8/d89133d1-06e7-4b8f-8f42-e0551fd93a5b.jpg?1547432505",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/8/d89133d1-06e7-4b8f-8f42-e0551fd93a5b.jpg?1547432505"
-    }
+    },
+    "type_line": "Plane — New Phyrexia",
+    "oracle_text": "When you planeswalk to Furnace Layer or at the beginning of your upkeep, select target player at random. That player discards a card. If that player discards a land card this way, they lose 3 life.\nWhenever chaos ensues, you may destroy target nonland permanent."
   },
   {
     "object": "card",
@@ -433,7 +465,9 @@
       "png": "https://cards.scryfall.io/png/front/f/d/fdaaef56-0c95-404a-8de5-e8f21e0282d3.png?1547432763",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/d/fdaaef56-0c95-404a-8de5-e8f21e0282d3.jpg?1547432763",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/d/fdaaef56-0c95-404a-8de5-e8f21e0282d3.jpg?1547432763"
-    }
+    },
+    "type_line": "Plane — Lorwyn",
+    "oracle_text": "At end of combat, you may exchange control of target creature you control that dealt combat damage to a player this combat and target creature that player controls.\nWhenever chaos ensues, gain control of target creature you own."
   },
   {
     "object": "card",
@@ -459,7 +493,9 @@
       "png": "https://cards.scryfall.io/png/front/8/3/830c7c81-335e-4f0b-81b9-209732408093.png?1547432666",
       "art_crop": "https://cards.scryfall.io/art_crop/front/8/3/830c7c81-335e-4f0b-81b9-209732408093.jpg?1547432666",
       "border_crop": "https://cards.scryfall.io/border_crop/front/8/3/830c7c81-335e-4f0b-81b9-209732408093.jpg?1547432666"
-    }
+    },
+    "type_line": "Plane — Lorwyn",
+    "oracle_text": "Whenever a land enters the battlefield, that land's controller creates three 0/1 white Goat creature tokens.\nWhenever chaos ensues, create a 0/1 white Goat creature token."
   },
   {
     "object": "card",
@@ -485,7 +521,9 @@
       "png": "https://cards.scryfall.io/png/front/3/d/3dfccef2-4d55-423f-8375-4e349bbf615e.png?1547432407",
       "art_crop": "https://cards.scryfall.io/art_crop/front/3/d/3dfccef2-4d55-423f-8375-4e349bbf615e.jpg?1547432407",
       "border_crop": "https://cards.scryfall.io/border_crop/front/3/d/3dfccef2-4d55-423f-8375-4e349bbf615e.jpg?1547432407"
-    }
+    },
+    "type_line": "Plane — Ravnica",
+    "oracle_text": "Whenever a creature dies, its controller distributes a number of +1/+1 counters equal to its power among any number of target creatures they control.\nWhenever chaos ensues, each player exiles all creatures they control and creates X 1/1 green Saproling creature tokens, where X is the total power of the creatures they exiled this way. Then planeswalk."
   },
   {
     "object": "card",
@@ -511,7 +549,9 @@
       "png": "https://cards.scryfall.io/png/front/e/c/ecbe3339-2cd1-45e2-bac1-8ea995238c30.png?1547432743",
       "art_crop": "https://cards.scryfall.io/art_crop/front/e/c/ecbe3339-2cd1-45e2-bac1-8ea995238c30.jpg?1547432743",
       "border_crop": "https://cards.scryfall.io/border_crop/front/e/c/ecbe3339-2cd1-45e2-bac1-8ea995238c30.jpg?1547432743"
-    }
+    },
+    "type_line": "Plane — Alara",
+    "oracle_text": "Blue, black, and/or red creature cards in your graveyard have unearth. The unearth cost is equal to the card's mana cost. (Pay the card's mana cost: Return it to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)\nWhenever chaos ensues, put target creature card from a graveyard onto the battlefield under your control."
   },
   {
     "object": "card",
@@ -537,7 +577,9 @@
       "png": "https://cards.scryfall.io/png/front/4/b/4ba7ce8f-e11d-4e06-8cb6-668de2a43a4e.png?1547432288",
       "art_crop": "https://cards.scryfall.io/art_crop/front/4/b/4ba7ce8f-e11d-4e06-8cb6-668de2a43a4e.jpg?1547432288",
       "border_crop": "https://cards.scryfall.io/border_crop/front/4/b/4ba7ce8f-e11d-4e06-8cb6-668de2a43a4e.jpg?1547432288"
-    }
+    },
+    "type_line": "Plane — Segovia",
+    "oracle_text": "All creatures get -5/-0.\nWhenever chaos ensues, you may destroy target creature if its power is 0 or less."
   },
   {
     "object": "card",
@@ -563,7 +605,9 @@
       "png": "https://cards.scryfall.io/png/front/6/1/61471ab4-749a-40e4-b06b-153edec80daa.png?1547432323",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/1/61471ab4-749a-40e4-b06b-153edec80daa.jpg?1547432323",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/1/61471ab4-749a-40e4-b06b-153edec80daa.jpg?1547432323"
-    }
+    },
+    "type_line": "Plane — Pyrulea",
+    "oracle_text": "All permanents untap during each player's untap step.\nWhenever chaos ensues, you may search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle."
   },
   {
     "object": "card",
@@ -589,7 +633,9 @@
       "png": "https://cards.scryfall.io/png/front/d/4/d44a959c-7a04-4342-8827-882349f786fc.png?1547432603",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/4/d44a959c-7a04-4342-8827-882349f786fc.jpg?1547432603",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/4/d44a959c-7a04-4342-8827-882349f786fc.jpg?1547432603"
-    }
+    },
+    "type_line": "Plane — Valla",
+    "oracle_text": "Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to any target of their choice.\nWhenever chaos ensues, exile target creature, then return it to the battlefield under its owner's control."
   },
   {
     "object": "card",
@@ -615,7 +661,9 @@
       "png": "https://cards.scryfall.io/png/front/d/0/d01d1b4f-5ac5-40b0-b4ad-34ac70aeb488.png?1547432427",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/0/d01d1b4f-5ac5-40b0-b4ad-34ac70aeb488.jpg?1547432427",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/0/d01d1b4f-5ac5-40b0-b4ad-34ac70aeb488.jpg?1547432427"
-    }
+    },
+    "type_line": "Plane — Ravnica",
+    "oracle_text": "Whenever a player casts an instant or sorcery spell, that player copies it. The player may choose new targets for the copy.\nWhenever chaos ensues, instant and sorcery spells you cast this turn cost {3} less to cast."
   },
   {
     "object": "card",
@@ -641,7 +689,9 @@
       "png": "https://cards.scryfall.io/png/front/5/2/5271d8fd-3657-45a3-8147-00cc1d19425f.png?1547432218",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/2/5271d8fd-3657-45a3-8147-00cc1d19425f.jpg?1547432218",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/2/5271d8fd-3657-45a3-8147-00cc1d19425f.jpg?1547432218"
-    }
+    },
+    "type_line": "Plane — Innistrad",
+    "oracle_text": "Prevent all combat damage that would be dealt by non-Werewolf creatures.\nWhenever chaos ensues, each creature you control gets +2/+2, gains trample, and becomes a Werewolf in addition to its other types until end of turn."
   },
   {
     "object": "card",
@@ -667,7 +717,9 @@
       "png": "https://cards.scryfall.io/png/front/9/3/93f386a5-08ce-4f76-944f-f38620a41027.png?1547432540",
       "art_crop": "https://cards.scryfall.io/art_crop/front/9/3/93f386a5-08ce-4f76-944f-f38620a41027.jpg?1547432540",
       "border_crop": "https://cards.scryfall.io/border_crop/front/9/3/93f386a5-08ce-4f76-944f-f38620a41027.jpg?1547432540"
-    }
+    },
+    "type_line": "Plane — Ravnica",
+    "oracle_text": "When you planeswalk to Kilnspire District or at the beginning of your precombat main phase, put a charge counter on Kilnspire District, then add {R} for each charge counter on it.\nWhenever chaos ensues, you may pay {X}. If you do, Kilnspire District deals X damage to any target."
   },
   {
     "object": "card",
@@ -693,7 +745,9 @@
       "png": "https://cards.scryfall.io/png/front/b/6/b6078774-f681-46dd-a68e-1cefa8261d16.png?1547432736",
       "art_crop": "https://cards.scryfall.io/art_crop/front/b/6/b6078774-f681-46dd-a68e-1cefa8261d16.jpg?1547432736",
       "border_crop": "https://cards.scryfall.io/border_crop/front/b/6/b6078774-f681-46dd-a68e-1cefa8261d16.jpg?1547432736"
-    }
+    },
+    "type_line": "Plane — Azgol",
+    "oracle_text": "At the beginning of your upkeep, sacrifice a creature. If you can't, planeswalk.\nWhenever chaos ensues, any number of target players each create a 2/2 black Zombie creature token."
   },
   {
     "object": "card",
@@ -719,7 +773,9 @@
       "png": "https://cards.scryfall.io/png/front/7/a/7a049235-2fda-48a7-b46e-d150a4893397.png?1547432694",
       "art_crop": "https://cards.scryfall.io/art_crop/front/7/a/7a049235-2fda-48a7-b46e-d150a4893397.jpg?1547432694",
       "border_crop": "https://cards.scryfall.io/border_crop/front/7/a/7a049235-2fda-48a7-b46e-d150a4893397.jpg?1547432694"
-    }
+    },
+    "type_line": "Plane — Arkhos",
+    "oracle_text": "At the beginning of your upkeep, mill ten cards.\nWhenever chaos ensues, target player mills ten cards."
   },
   {
     "object": "card",
@@ -745,7 +801,9 @@
       "png": "https://cards.scryfall.io/png/front/0/0/00832a47-dec8-411e-9708-b3ebbd3a2dfc.png?1547432491",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/0/00832a47-dec8-411e-9708-b3ebbd3a2dfc.jpg?1547432491",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/0/00832a47-dec8-411e-9708-b3ebbd3a2dfc.jpg?1547432491"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "All creatures have \"{T}: Add {G}{G}.\"\nWhenever chaos ensues, untap all creatures you control."
   },
   {
     "object": "card",
@@ -771,7 +829,9 @@
       "png": "https://cards.scryfall.io/png/front/6/2/6223caca-e993-4834-a673-3eee65b8afe1.png?1547432561",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/2/6223caca-e993-4834-a673-3eee65b8afe1.jpg?1547432561",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/2/6223caca-e993-4834-a673-3eee65b8afe1.jpg?1547432561"
-    }
+    },
+    "type_line": "Plane — Alara",
+    "oracle_text": "When you planeswalk to The Maelstrom or at the beginning of your upkeep, you may reveal the top card of your library. If it's a permanent card, you may put it onto the battlefield. If you revealed a card but didn't put it onto the battlefield, put it on the bottom of your library.\nWhenever chaos ensues, return target permanent card from your graveyard to the battlefield."
   },
   {
     "object": "card",
@@ -797,7 +857,9 @@
       "png": "https://cards.scryfall.io/png/front/9/c/9c155a59-afee-4821-9715-10dafb9f9d9a.png?1547432196",
       "art_crop": "https://cards.scryfall.io/art_crop/front/9/c/9c155a59-afee-4821-9715-10dafb9f9d9a.jpg?1547432196",
       "border_crop": "https://cards.scryfall.io/border_crop/front/9/c/9c155a59-afee-4821-9715-10dafb9f9d9a.jpg?1547432196"
-    }
+    },
+    "type_line": "Plane — Kamigawa",
+    "oracle_text": "Whenever a player casts a spell, that player may draw a card.\nWhenever chaos ensues, each player may return a blue card from their graveyard to their hand."
   },
   {
     "object": "card",
@@ -823,7 +885,9 @@
       "png": "https://cards.scryfall.io/png/front/d/7/d7a2b02e-3ff2-4c71-9022-b08472f53664.png?1547432351",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/7/d7a2b02e-3ff2-4c71-9022-b08472f53664.jpg?1547432351",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/7/d7a2b02e-3ff2-4c71-9022-b08472f53664.jpg?1547432351"
-    }
+    },
+    "type_line": "Plane — Karsus",
+    "oracle_text": "Whenever a player casts a spell, that player flips a coin. If the player loses the flip, counter that spell.\nWhenever chaos ensues, target player reveals the top card of their library. If it's a nonland card, you may cast it without paying its mana cost."
   },
   {
     "object": "card",
@@ -849,7 +913,9 @@
       "png": "https://cards.scryfall.io/png/front/a/4/a4d3edeb-4a78-4de3-a167-4565c494ba23.png?1547432596",
       "art_crop": "https://cards.scryfall.io/art_crop/front/a/4/a4d3edeb-4a78-4de3-a167-4565c494ba23.jpg?1547432596",
       "border_crop": "https://cards.scryfall.io/border_crop/front/a/4/a4d3edeb-4a78-4de3-a167-4565c494ba23.jpg?1547432596"
-    }
+    },
+    "type_line": "Plane — Regatha",
+    "oracle_text": "At the beginning of your end step, put a pressure counter on Mount Keralia.\nWhen you planeswalk away from Mount Keralia, it deals damage equal to the number of pressure counters on it to each creature and each planeswalker.\nWhenever chaos ensues, prevent all damage that planes named Mount Keralia would deal this game to permanents you control."
   },
   {
     "object": "card",
@@ -875,7 +941,9 @@
       "png": "https://cards.scryfall.io/png/front/4/6/46daa243-7c4e-4b0c-8ec2-e70cba8e72c3.png?1547432171",
       "art_crop": "https://cards.scryfall.io/art_crop/front/4/6/46daa243-7c4e-4b0c-8ec2-e70cba8e72c3.jpg?1547432171",
       "border_crop": "https://cards.scryfall.io/border_crop/front/4/6/46daa243-7c4e-4b0c-8ec2-e70cba8e72c3.jpg?1547432171"
-    }
+    },
+    "type_line": "Plane — Zendikar",
+    "oracle_text": "Whenever a nontoken creature enters the battlefield, its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.\nWhenever chaos ensues, target land becomes a 4/4 creature that's still a land."
   },
   {
     "object": "card",
@@ -901,7 +969,9 @@
       "png": "https://cards.scryfall.io/png/front/f/6/f63b82f9-ebc4-465c-b25e-5ee710525143.png?1547432449",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/6/f63b82f9-ebc4-465c-b25e-5ee710525143.jpg?1547432449",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/6/f63b82f9-ebc4-465c-b25e-5ee710525143.jpg?1547432449"
-    }
+    },
+    "type_line": "Plane — Wildfire",
+    "oracle_text": "At the beginning of your upkeep, put a flame counter on Naar Isle, then Naar Isle deals damage to you equal to the number of flame counters on it.\nWhenever chaos ensues, Naar Isle deals 3 damage to target player or planeswalker."
   },
   {
     "object": "card",
@@ -927,7 +997,9 @@
       "png": "https://cards.scryfall.io/png/front/1/5/15611e29-6f96-4c5c-a919-c8fe590581b0.png?1547432519",
       "art_crop": "https://cards.scryfall.io/art_crop/front/1/5/15611e29-6f96-4c5c-a919-c8fe590581b0.jpg?1547432519",
       "border_crop": "https://cards.scryfall.io/border_crop/front/1/5/15611e29-6f96-4c5c-a919-c8fe590581b0.jpg?1547432519"
-    }
+    },
+    "type_line": "Plane — Alara",
+    "oracle_text": "You may play any number of lands on each of your turns.\nWhenever chaos ensues, target red, green, or white creature you control gets +1/+1 until end of turn for each land you control."
   },
   {
     "object": "card",
@@ -953,7 +1025,9 @@
       "png": "https://cards.scryfall.io/png/front/9/f/9f4b51ac-3e56-494f-aad7-ff5b0c3ed6ed.png?1547432372",
       "art_crop": "https://cards.scryfall.io/art_crop/front/9/f/9f4b51ac-3e56-494f-aad7-ff5b0c3ed6ed.jpg?1547432372",
       "border_crop": "https://cards.scryfall.io/border_crop/front/9/f/9f4b51ac-3e56-494f-aad7-ff5b0c3ed6ed.jpg?1547432372"
-    }
+    },
+    "type_line": "Plane — Innistrad",
+    "oracle_text": "At the beginning of your end step, mill seven cards. Then return a card at random from your graveyard to your hand.\nWhenever chaos ensues, return target card from your graveyard to your hand."
   },
   {
     "object": "card",
@@ -979,7 +1053,9 @@
       "png": "https://cards.scryfall.io/png/front/2/0/20d23638-74fb-481d-a3c4-d7f5fd666211.png?1547432295",
       "art_crop": "https://cards.scryfall.io/art_crop/front/2/0/20d23638-74fb-481d-a3c4-d7f5fd666211.jpg?1547432295",
       "border_crop": "https://cards.scryfall.io/border_crop/front/2/0/20d23638-74fb-481d-a3c4-d7f5fd666211.jpg?1547432295"
-    }
+    },
+    "type_line": "Plane — New Phyrexia",
+    "oracle_text": "When you planeswalk away from Norn's Dominion, destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.\nWhenever chaos ensues, you may put a fate counter on target permanent."
   },
   {
     "object": "card",
@@ -1005,7 +1081,9 @@
       "png": "https://cards.scryfall.io/png/front/2/e/2eef332f-d47f-4bc3-b39d-572dce4997b2.png?1547432470",
       "art_crop": "https://cards.scryfall.io/art_crop/front/2/e/2eef332f-d47f-4bc3-b39d-572dce4997b2.jpg?1547432470",
       "border_crop": "https://cards.scryfall.io/border_crop/front/2/e/2eef332f-d47f-4bc3-b39d-572dce4997b2.jpg?1547432470"
-    }
+    },
+    "type_line": "Plane — Shandalar",
+    "oracle_text": "All creatures are black and have deathtouch.\nWhenever chaos ensues, creatures you control get +1/+0 and gain first strike until end of turn."
   },
   {
     "object": "card",
@@ -1031,7 +1109,9 @@
       "png": "https://cards.scryfall.io/png/front/b/e/be92be0a-e10d-478b-bc09-9cd09bfb269e.png?1547432253",
       "art_crop": "https://cards.scryfall.io/art_crop/front/b/e/be92be0a-e10d-478b-bc09-9cd09bfb269e.jpg?1547432253",
       "border_crop": "https://cards.scryfall.io/border_crop/front/b/e/be92be0a-e10d-478b-bc09-9cd09bfb269e.jpg?1547432253"
-    }
+    },
+    "type_line": "Plane — Ravnica",
+    "oracle_text": "When you planeswalk away from Orzhova, each player returns all creature cards from their graveyard to the battlefield.\nWhenever chaos ensues, for each opponent, exile up to one target creature card from that player's graveyard."
   },
   {
     "object": "card",
@@ -1057,7 +1137,9 @@
       "png": "https://cards.scryfall.io/png/front/3/5/35add85f-a70a-497d-9a11-593325a1a4ef.png?1547432456",
       "art_crop": "https://cards.scryfall.io/art_crop/front/3/5/35add85f-a70a-497d-9a11-593325a1a4ef.jpg?1547432456",
       "border_crop": "https://cards.scryfall.io/border_crop/front/3/5/35add85f-a70a-497d-9a11-593325a1a4ef.jpg?1547432456"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "Instant and sorcery cards in graveyards have flashback. The flashback cost is equal to the card's mana cost. (Its owner may cast the card from their graveyard for its mana cost. Then they exile it.)\nWhenever chaos ensues, take an extra turn after this one."
   },
   {
     "object": "card",
@@ -1083,7 +1165,9 @@
       "png": "https://cards.scryfall.io/png/front/5/5/559007a6-c515-413a-8d3c-8ce1df0742ff.png?1547432526",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/5/559007a6-c515-413a-8d3c-8ce1df0742ff.jpg?1547432526",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/5/559007a6-c515-413a-8d3c-8ce1df0742ff.jpg?1547432526"
-    }
+    },
+    "type_line": "Plane — Bolas's Meditation Realm",
+    "oracle_text": "At the beginning of your end step, put the cards in your hand on the bottom of your library in any order, then draw that many cards.\nWhenever chaos ensues, reveal the top three cards of your planar deck. Each of the revealed cards' {CHAOS} abilities triggers. Then put the revealed cards on the bottom of your planar deck in any order."
   },
   {
     "object": "card",
@@ -1109,7 +1193,9 @@
       "png": "https://cards.scryfall.io/png/front/8/6/86ff49dd-9845-459e-baaf-f65126ccb648.png?1547432729",
       "art_crop": "https://cards.scryfall.io/art_crop/front/8/6/86ff49dd-9845-459e-baaf-f65126ccb648.jpg?1547432729",
       "border_crop": "https://cards.scryfall.io/border_crop/front/8/6/86ff49dd-9845-459e-baaf-f65126ccb648.jpg?1547432729"
-    }
+    },
+    "type_line": "Plane — Ravnica",
+    "oracle_text": "If you cast a spell this turn, you can't attack with creatures.\nIf you attacked with creatures this turn, you can't cast spells.\nWhenever chaos ensues, you gain life equal to the number of cards in your hand."
   },
   {
     "object": "card",
@@ -1135,7 +1221,9 @@
       "png": "https://cards.scryfall.io/png/front/0/7/072c1a59-dbdc-469c-9743-e083e52b0b6d.png?1547432435",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/7/072c1a59-dbdc-469c-9743-e083e52b0b6d.jpg?1547432435",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/7/072c1a59-dbdc-469c-9743-e083e52b0b6d.jpg?1547432435"
-    }
+    },
+    "type_line": "Plane — Mirrodin",
+    "oracle_text": "When you planeswalk to Quicksilver Sea or at the beginning of your upkeep, scry 4. (Look at the top four cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)\nWhenever chaos ensues, reveal the top card of your library. You may play it without paying its mana cost."
   },
   {
     "object": "card",
@@ -1161,7 +1249,9 @@
       "png": "https://cards.scryfall.io/png/front/d/e/de770524-9afc-4971-842a-6ee0b81176fb.png?1547432477",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/e/de770524-9afc-4971-842a-6ee0b81176fb.jpg?1547432477",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/e/de770524-9afc-4971-842a-6ee0b81176fb.jpg?1547432477"
-    }
+    },
+    "type_line": "Plane — Shadowmoor",
+    "oracle_text": "All creatures have wither. (They deal damage to creatures in the form of -1/-1 counters.)\nWhenever chaos ensues, put a -1/-1 counter on target creature, two -1/-1 counters on another target creature, and three -1/-1 counters on a third target creature."
   },
   {
     "object": "card",
@@ -1187,7 +1277,9 @@
       "png": "https://cards.scryfall.io/png/front/4/c/4c20e1cd-c541-4b44-8e20-adaa45a989a2.png?1547432463",
       "art_crop": "https://cards.scryfall.io/art_crop/front/4/c/4c20e1cd-c541-4b44-8e20-adaa45a989a2.jpg?1547432463",
       "border_crop": "https://cards.scryfall.io/border_crop/front/4/c/4c20e1cd-c541-4b44-8e20-adaa45a989a2.jpg?1547432463"
-    }
+    },
+    "type_line": "Plane — Serra’s Realm",
+    "oracle_text": "When you planeswalk away from Sanctum of Serra, destroy all nonland permanents.\nWhenever chaos ensues, you may have your life total become 20."
   },
   {
     "object": "card",
@@ -1213,7 +1305,9 @@
       "png": "https://cards.scryfall.io/png/front/0/6/0693024b-7eed-4aa5-a890-66c947db6b73.png?1547432420",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/6/0693024b-7eed-4aa5-a890-66c947db6b73.jpg?1547432420",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/6/0693024b-7eed-4aa5-a890-66c947db6b73.jpg?1547432420"
-    }
+    },
+    "type_line": "Plane — Rabiah",
+    "oracle_text": "Players reveal each card they draw.\nWhenever a player draws a land card, that player gains 3 life.\nWhenever a player draws a nonland card, that player loses 3 life.\nWhenever chaos ensues, put target permanent on top of its owner's library."
   },
   {
     "object": "card",
@@ -1239,7 +1333,9 @@
       "png": "https://cards.scryfall.io/png/front/8/c/8ce18193-76d6-4357-80e3-67ab453f47ac.png?1547432547",
       "art_crop": "https://cards.scryfall.io/art_crop/front/8/c/8ce18193-76d6-4357-80e3-67ab453f47ac.jpg?1547432547",
       "border_crop": "https://cards.scryfall.io/border_crop/front/8/c/8ce18193-76d6-4357-80e3-67ab453f47ac.jpg?1547432547"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "All creatures have \"{R}: This creature gets +1/+0 until end of turn.\"\nWhenever chaos ensues, create a 5/5 red Dragon creature token with flying."
   },
   {
     "object": "card",
@@ -1265,7 +1361,9 @@
       "png": "https://cards.scryfall.io/png/front/2/4/24ad1b98-17ef-4c58-a947-384ef39f1193.png?1547432246",
       "art_crop": "https://cards.scryfall.io/art_crop/front/2/4/24ad1b98-17ef-4c58-a947-384ef39f1193.jpg?1547432246",
       "border_crop": "https://cards.scryfall.io/border_crop/front/2/4/24ad1b98-17ef-4c58-a947-384ef39f1193.jpg?1547432246"
-    }
+    },
+    "type_line": "Plane — Kaldheim",
+    "oracle_text": "Players play with the top card of their libraries revealed.\nSpells that share a card type with the top card of a library can't be cast.\nWhenever chaos ensues, target player loses life equal to the number of cards in their hand."
   },
   {
     "object": "card",
@@ -1291,7 +1389,9 @@
       "png": "https://cards.scryfall.io/png/front/e/c/eceba6df-8821-499b-b3c2-4d54c6eab257.png?1547432680",
       "art_crop": "https://cards.scryfall.io/art_crop/front/e/c/eceba6df-8821-499b-b3c2-4d54c6eab257.jpg?1547432680",
       "border_crop": "https://cards.scryfall.io/border_crop/front/e/c/eceba6df-8821-499b-b3c2-4d54c6eab257.jpg?1547432680"
-    }
+    },
+    "type_line": "Plane — Xerex",
+    "oracle_text": "Players have no maximum hand size.\nWhenever you roll the planar die, draw a card.\nWhenever chaos ensues, reveal the top card of your planar deck. You may put it on the bottom of your planar deck."
   },
   {
     "object": "card",
@@ -1317,7 +1417,9 @@
       "png": "https://cards.scryfall.io/png/front/0/d/0dadba2e-1d9a-4f04-b9d5-a3edff017662.png?1547432652",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/d/0dadba2e-1d9a-4f04-b9d5-a3edff017662.jpg?1547432652",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/d/0dadba2e-1d9a-4f04-b9d5-a3edff017662.jpg?1547432652"
-    }
+    },
+    "type_line": "Plane — Kamigawa",
+    "oracle_text": "Whenever a creature leaves the battlefield, its controller draws a card.\nWhenever chaos ensues, return target creature you control to its owner's hand."
   },
   {
     "object": "card",
@@ -1343,7 +1445,9 @@
       "png": "https://cards.scryfall.io/png/front/0/9/09feed09-96de-4208-b6b9-cac0ec150e70.png?1547432225",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/9/09feed09-96de-4208-b6b9-cac0ec150e70.jpg?1547432225",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/9/09feed09-96de-4208-b6b9-cac0ec150e70.jpg?1547432225"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "Any time you could cast a sorcery, you may exile a nonland card from your hand with X time counters on it, where X is its mana value. If the exiled card doesn't have suspend, it gains suspend. (At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, the player casts it without paying its mana cost. If it's a creature, it has haste.)\nWhenever chaos ensues, remove two time counters from each suspended card you own."
   },
   {
     "object": "card",
@@ -1369,7 +1473,9 @@
       "png": "https://cards.scryfall.io/png/front/1/8/18c94ada-d864-4e94-9d95-e796ab0d0cff.png?1547432498",
       "art_crop": "https://cards.scryfall.io/art_crop/front/1/8/18c94ada-d864-4e94-9d95-e796ab0d0cff.jpg?1547432498",
       "border_crop": "https://cards.scryfall.io/border_crop/front/1/8/18c94ada-d864-4e94-9d95-e796ab0d0cff.jpg?1547432498"
-    }
+    },
+    "type_line": "Plane — Zendikar",
+    "oracle_text": "Creatures can't block.\nWhenever chaos ensues, draw a card for each land you control."
   },
   {
     "object": "card",
@@ -1395,7 +1501,9 @@
       "png": "https://cards.scryfall.io/png/front/e/c/ec65904f-c0dd-45ab-a85a-af4a6a631e11.png?1547432749",
       "art_crop": "https://cards.scryfall.io/art_crop/front/e/c/ec65904f-c0dd-45ab-a85a-af4a6a631e11.jpg?1547432749",
       "border_crop": "https://cards.scryfall.io/border_crop/front/e/c/ec65904f-c0dd-45ab-a85a-af4a6a631e11.jpg?1547432749"
-    }
+    },
+    "type_line": "Plane — Kinshala",
+    "oracle_text": "Whenever a player taps a land for mana, Tember City deals 1 damage to that player.\nWhenever chaos ensues, each other player sacrifices a nonland permanent."
   },
   {
     "object": "card",
@@ -1421,7 +1529,9 @@
       "png": "https://cards.scryfall.io/png/front/f/5/f5f307bf-80ac-46cb-9003-3e70a0703e71.png?1547432442",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/5/f5f307bf-80ac-46cb-9003-3e70a0703e71.jpg?1547432442",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/5/f5f307bf-80ac-46cb-9003-3e70a0703e71.jpg?1547432442"
-    }
+    },
+    "type_line": "Plane — Vryn",
+    "oracle_text": "Instant and sorcery spells have rebound. (The spell's controller exiles the spell as it resolves if they cast it from their hand. At the beginning of that player's next upkeep, they may cast that card from exile without paying its mana cost.)\nWhenever chaos ensues, you may search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle."
   },
   {
     "object": "card",
@@ -1447,7 +1557,9 @@
       "png": "https://cards.scryfall.io/png/front/6/2/621a8224-7ea2-4ca4-be74-e460d05ad12b.png?1547432533",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/2/621a8224-7ea2-4ca4-be74-e460d05ad12b.jpg?1547432533",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/2/621a8224-7ea2-4ca4-be74-e460d05ad12b.jpg?1547432533"
-    }
+    },
+    "type_line": "Plane — Lorwyn",
+    "oracle_text": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Elemental Shamans and an Elemental Spirit are on the battlefield, each gets +2/+2.)\nWhenever chaos ensues, target creature gains all creature types until end of turn."
   },
   {
     "object": "card",
@@ -1473,7 +1585,9 @@
       "png": "https://cards.scryfall.io/png/front/2/7/27f3c16a-34f9-497d-835c-5942e395ded8.png?1591196076",
       "art_crop": "https://cards.scryfall.io/art_crop/front/2/7/27f3c16a-34f9-497d-835c-5942e395ded8.jpg?1591196076",
       "border_crop": "https://cards.scryfall.io/border_crop/front/2/7/27f3c16a-34f9-497d-835c-5942e395ded8.jpg?1591196076"
-    }
+    },
+    "type_line": "Plane — Belenon",
+    "oracle_text": "Players play with the top card of their libraries revealed.\nYou may play lands and cast spells from the top of any player's library.\nWhenever chaos ensues, each player mills a card."
   },
   {
     "object": "card",
@@ -1499,7 +1613,9 @@
       "png": "https://cards.scryfall.io/png/front/4/c/4c9dc306-92e9-46e1-a67c-d4f2a65ce339.png?1547432715",
       "art_crop": "https://cards.scryfall.io/art_crop/front/4/c/4c9dc306-92e9-46e1-a67c-d4f2a65ce339.jpg?1547432715",
       "border_crop": "https://cards.scryfall.io/border_crop/front/4/c/4c9dc306-92e9-46e1-a67c-d4f2a65ce339.jpg?1547432715"
-    }
+    },
+    "type_line": "Plane — Kyneth",
+    "oracle_text": "Creatures with flying get +2/+0.\nCreatures without flying get -2/-0.\nWhenever chaos ensues, target creature gains flying until end of turn."
   },
   {
     "object": "card",
@@ -1525,7 +1641,9 @@
       "png": "https://cards.scryfall.io/png/front/d/e/de4c566d-85ef-49af-a5cb-bcfa4aaba245.png?1680815444",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/e/de4c566d-85ef-49af-a5cb-bcfa4aaba245.jpg?1680815444",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/e/de4c566d-85ef-49af-a5cb-bcfa4aaba245.jpg?1680815444"
-    }
+    },
+    "type_line": "Plane — Capenna",
+    "oracle_text": "Creature spells you cast from your hand have blitz {3}. (If you cast a spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)\nWhenever chaos ensues, return target creature card from your graveyard to your hand."
   },
   {
     "object": "card",
@@ -1551,7 +1669,9 @@
       "png": "https://cards.scryfall.io/png/front/a/4/a4400c14-2aed-4018-a3fb-7de2b0456c07.png?1680815445",
       "art_crop": "https://cards.scryfall.io/art_crop/front/a/4/a4400c14-2aed-4018-a3fb-7de2b0456c07.jpg?1680815445",
       "border_crop": "https://cards.scryfall.io/border_crop/front/a/4/a4400c14-2aed-4018-a3fb-7de2b0456c07.jpg?1680815445"
-    }
+    },
+    "type_line": "Plane — Echoir",
+    "oracle_text": "When you planeswalk to Enigma Ridges, each player who controls fewer lands than the player who controls the most lands searches their library for a number of basic land cards less than or equal to the difference, reveals them, puts them into their hand, then shuffles.\nWhenever chaos ensues, draw a card, then you may put a land card from your hand onto the battlefield."
   },
   {
     "object": "card",
@@ -1577,7 +1697,9 @@
       "png": "https://cards.scryfall.io/png/front/f/f/ffdf27d3-80b4-4aa1-b943-d247e502d32c.png?1680815445",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/f/ffdf27d3-80b4-4aa1-b943-d247e502d32c.jpg?1680815445",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/f/ffdf27d3-80b4-4aa1-b943-d247e502d32c.jpg?1680815445"
-    }
+    },
+    "type_line": "Plane — Alara",
+    "oracle_text": "Artifact spells cost {1} less to cast.\nWhenever chaos ensues, creatures you control that are white, blue, and/or black become artifacts in addition to their other types until end of turn. Then each artifact creature you control gains vigilance, menace, and lifelink until end of turn."
   },
   {
     "object": "card",
@@ -1603,7 +1725,9 @@
       "png": "https://cards.scryfall.io/png/front/f/e/fe2e52fb-4633-46c1-a48a-cde89d709e07.png?1680815445",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/e/fe2e52fb-4633-46c1-a48a-cde89d709e07.jpg?1680815445",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/e/fe2e52fb-4633-46c1-a48a-cde89d709e07.jpg?1680815445"
-    }
+    },
+    "type_line": "Plane — Antausia",
+    "oracle_text": "Whenever a player taps a land for mana, that player adds one mana of any type that land produced.\nWhenever chaos ensues, reveal cards from the top of your planar deck until you reveal a plane card. Chaos ensues on that plane. Then put all cards revealed this way on the bottom of your planar deck in any order."
   },
   {
     "object": "card",
@@ -1629,7 +1753,9 @@
       "png": "https://cards.scryfall.io/png/front/0/c/0c8456bd-d290-43af-b2b9-06823bab65a2.png?1681019040",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/c/0c8456bd-d290-43af-b2b9-06823bab65a2.jpg?1681019040",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/c/0c8456bd-d290-43af-b2b9-06823bab65a2.jpg?1681019040"
-    }
+    },
+    "type_line": "Plane — Kaladesh",
+    "oracle_text": "At the beginning of combat on your turn, until end of turn, each noncreature, non-Vehicle artifact you control becomes a 5/3 Vehicle in addition to its other types and gains trample, haste, and crew 2.\nWhenever chaos ensues, return target noncreature artifact card from your graveyard to your hand."
   },
   {
     "object": "card",
@@ -1655,7 +1781,9 @@
       "png": "https://cards.scryfall.io/png/front/0/3/03a2c40d-6adb-4ad7-ba8e-3954d33f0e09.png?1680815457",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/3/03a2c40d-6adb-4ad7-ba8e-3954d33f0e09.jpg?1680815457",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/3/03a2c40d-6adb-4ad7-ba8e-3954d33f0e09.jpg?1680815457"
-    }
+    },
+    "type_line": "Plane — Ixalan",
+    "oracle_text": "Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nWhenever one or more creatures you control deal combat damage to a player, create a Treasure token. Then draw a card if you have the city's blessing.\nWhenever chaos ensues, you may put a permanent card from your hand onto the battlefield tapped."
   },
   {
     "object": "card",
@@ -1681,7 +1809,9 @@
       "png": "https://cards.scryfall.io/png/front/4/a/4afe8c95-efeb-4f7d-834d-fa5b095c9a06.png?1680815458",
       "art_crop": "https://cards.scryfall.io/art_crop/front/4/a/4afe8c95-efeb-4f7d-834d-fa5b095c9a06.jpg?1680815458",
       "border_crop": "https://cards.scryfall.io/border_crop/front/4/a/4afe8c95-efeb-4f7d-834d-fa5b095c9a06.jpg?1680815458"
-    }
+    },
+    "type_line": "Plane — Tarkir",
+    "oracle_text": "When you planeswalk to The Great Aerie and at the beginning of your upkeep, bolster 3. (Choose a creature with the least toughness among creatures you control and put three +1/+1 counters on it.)\nWhenever chaos ensues, choose up to one target creature you control and up to one target creature an opponent controls. Each of those creatures deals damage equal to its toughness to the other."
   },
   {
     "object": "card",
@@ -1707,7 +1837,9 @@
       "png": "https://cards.scryfall.io/png/front/6/a/6a9b4ba6-12cb-488c-b9d5-245e094f72c3.png?1680815459",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/a/6a9b4ba6-12cb-488c-b9d5-245e094f72c3.jpg?1680815459",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/a/6a9b4ba6-12cb-488c-b9d5-245e094f72c3.jpg?1680815459"
-    }
+    },
+    "type_line": "Plane — Cridhe",
+    "oracle_text": "When you planeswalk to Inys Haen and at the beginning of your upkeep, mill three cards.\nWhen you planeswalk away from Inys Haen, each player returns all land cards from their graveyard to the battlefield tapped.\nWhenever chaos ensues, return target nonland card from your graveyard to your hand."
   },
   {
     "object": "card",
@@ -1733,7 +1865,9 @@
       "png": "https://cards.scryfall.io/png/front/8/d/8d63dc8a-101c-4b12-bf56-06a8a3cea64e.png?1680815461",
       "art_crop": "https://cards.scryfall.io/art_crop/front/8/d/8d63dc8a-101c-4b12-bf56-06a8a3cea64e.jpg?1680815461",
       "border_crop": "https://cards.scryfall.io/border_crop/front/8/d/8d63dc8a-101c-4b12-bf56-06a8a3cea64e.jpg?1680815461"
-    }
+    },
+    "type_line": "Plane — Ikoria",
+    "oracle_text": "When you planeswalk to Ketria and at the beginning of your upkeep, put your choice of a vigilance, menace, or trample counter on target creature you control.\nWhenever chaos ensues, exile cards from the top of your library until you exile a nonland permanent card. Put that card onto the battlefield or into your hand."
   },
   {
     "object": "card",
@@ -1759,7 +1893,9 @@
       "png": "https://cards.scryfall.io/png/front/2/a/2a098e3b-00e7-48d5-bc0d-f153e7cc5dfd.png?1680881378",
       "art_crop": "https://cards.scryfall.io/art_crop/front/2/a/2a098e3b-00e7-48d5-bc0d-f153e7cc5dfd.jpg?1680881378",
       "border_crop": "https://cards.scryfall.io/border_crop/front/2/a/2a098e3b-00e7-48d5-bc0d-f153e7cc5dfd.jpg?1680881378"
-    }
+    },
+    "type_line": "Plane — Kaldheim",
+    "oracle_text": "When you planeswalk to Littjara and at the beginning of your upkeep, create a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)\nWhenever chaos ensues, choose a creature type. Put a +1/+1 counter on each creature you control of that type."
   },
   {
     "object": "card",
@@ -1785,7 +1921,9 @@
       "png": "https://cards.scryfall.io/png/front/5/3/53f91325-e95a-4b68-9491-4249c2e940b4.png?1681019079",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/3/53f91325-e95a-4b68-9491-4249c2e940b4.jpg?1681019079",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/3/53f91325-e95a-4b68-9491-4249c2e940b4.jpg?1681019079"
-    }
+    },
+    "type_line": "Plane — Gargantikar",
+    "oracle_text": "Each creature with mana value 2 or less gets +2/+2.\nWhenever chaos ensues, create a 1/1 green Insect creature token with flying named Butterfly."
   },
   {
     "object": "card",
@@ -1811,7 +1949,9 @@
       "png": "https://cards.scryfall.io/png/front/7/f/7ff092bb-e284-4397-a584-6a046145424b.png?1680815473",
       "art_crop": "https://cards.scryfall.io/art_crop/front/7/f/7ff092bb-e284-4397-a584-6a046145424b.jpg?1680815473",
       "border_crop": "https://cards.scryfall.io/border_crop/front/7/f/7ff092bb-e284-4397-a584-6a046145424b.jpg?1680815473"
-    }
+    },
+    "type_line": "Plane — Amonkhet",
+    "oracle_text": "Each creature card in your graveyard has embalm. Its embalm cost is equal to its mana cost. (Exile a creature card from your graveyard and pay its embalm cost: Create a token that's a copy of it, except it's a white Zombie in addition to its other types with no mana cost. Embalm only as a sorcery.)\nWhenever chaos ensues, you may discard a card. If you do, draw a card."
   },
   {
     "object": "card",
@@ -1837,7 +1977,9 @@
       "png": "https://cards.scryfall.io/png/front/e/2/e22ac94f-03a7-49ee-a059-fc123708962e.png?1680815475",
       "art_crop": "https://cards.scryfall.io/art_crop/front/e/2/e22ac94f-03a7-49ee-a059-fc123708962e.jpg?1680815475",
       "border_crop": "https://cards.scryfall.io/border_crop/front/e/2/e22ac94f-03a7-49ee-a059-fc123708962e.jpg?1680815475"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "Whenever a historic creature you control attacks, it gets +2/+2 until end of turn. (Artifacts, legendaries, and Sagas are historic.)\nWhenever chaos ensues, reveal cards from the top of your library until you reveal a historic card. Put that card into your hand and the rest on the bottom of your library in a random order."
   },
   {
     "object": "card",
@@ -1863,7 +2005,9 @@
       "png": "https://cards.scryfall.io/png/front/1/a/1a4238ce-2a8f-404f-a893-9bb8b3f26835.png?1680815475",
       "art_crop": "https://cards.scryfall.io/art_crop/front/1/a/1a4238ce-2a8f-404f-a893-9bb8b3f26835.jpg?1680815475",
       "border_crop": "https://cards.scryfall.io/border_crop/front/1/a/1a4238ce-2a8f-404f-a893-9bb8b3f26835.jpg?1680815475"
-    }
+    },
+    "type_line": "Plane — New Phyrexia",
+    "oracle_text": "When you planeswalk to Norn's Seedcore, chaos ensues.\nWhenever chaos ensues, reveal cards from the top of your planar deck until you reveal a plane card. Planeswalk to it, except don't planeswalk away from any plane. Put the rest of the revealed cards on the bottom of your planar deck in any order."
   },
   {
     "object": "card",
@@ -1889,7 +2033,9 @@
       "png": "https://cards.scryfall.io/png/front/d/8/d8da872d-55e0-4596-ba8e-f9ff7b2c0a86.png?1680815480",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/8/d8da872d-55e0-4596-ba8e-f9ff7b2c0a86.jpg?1680815480",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/8/d8da872d-55e0-4596-ba8e-f9ff7b2c0a86.jpg?1680815480"
-    }
+    },
+    "type_line": "Plane — Theros",
+    "oracle_text": "Nontoken creatures are enchantments in addition to their other types.\nConstellation — Whenever an enchantment enters the battlefield under your control, you gain 1 life.\nWhenever chaos ensues, choose a color. Add an amount of mana of that color equal to your devotion to that color."
   },
   {
     "object": "card",
@@ -1915,7 +2061,9 @@
       "png": "https://cards.scryfall.io/png/front/f/e/fe509cef-83e5-48d9-a9ec-e187ab65b5e0.png?1680815487",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/e/fe509cef-83e5-48d9-a9ec-e187ab65b5e0.jpg?1680815487",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/e/fe509cef-83e5-48d9-a9ec-e187ab65b5e0.jpg?1680815487"
-    }
+    },
+    "type_line": "Plane — Fiora",
+    "oracle_text": "When one or more creatures you control deal combat damage to a player, if there is no monarch, you become the monarch.\nWhenever chaos ensues, create a 1/1 black Assassin creature token with deathtouch and haste."
   },
   {
     "object": "card",
@@ -1941,7 +2089,9 @@
       "png": "https://cards.scryfall.io/png/front/f/d/fd571dc7-b0b0-49a2-938a-d4336efe5e76.png?1680815488",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/d/fd571dc7-b0b0-49a2-938a-d4336efe5e76.jpg?1680815488",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/d/fd571dc7-b0b0-49a2-938a-d4336efe5e76.jpg?1680815488"
-    }
+    },
+    "type_line": "Plane — The Abyss",
+    "oracle_text": "When you planeswalk to The Pit, each player creates their choice of a 3/3 white Angel creature token with flying or a 6/6 black Demon creature token with flying, trample, and \"At the beginning of your upkeep, sacrifice another creature. If you can't, this creature deals 6 damage to you.\"\nWhenever chaos ensues, each player sacrifices a nonartifact creature."
   },
   {
     "object": "card",
@@ -1967,7 +2117,9 @@
       "png": "https://cards.scryfall.io/png/front/6/1/618dbae8-7e3f-47ba-8f02-292047e86a05.png?1680815489",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/1/618dbae8-7e3f-47ba-8f02-292047e86a05.jpg?1680815489",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/1/618dbae8-7e3f-47ba-8f02-292047e86a05.jpg?1680815489"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "When you planeswalk to Riptide Island and at the beginning of your upkeep, create two 1/1 colorless Sliver creature tokens.\nWhenever chaos ensues, Slivers you control gain haste and get +X/+X until end of turn, where X is the number of Slivers you control."
   },
   {
     "object": "card",
@@ -1993,7 +2145,9 @@
       "png": "https://cards.scryfall.io/png/front/6/a/6a8a8752-6849-4abc-9acb-bafffe685e94.png?1680815492",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/a/6a8a8752-6849-4abc-9acb-bafffe685e94.jpg?1680815492",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/a/6a8a8752-6849-4abc-9acb-bafffe685e94.jpg?1680815492"
-    }
+    },
+    "type_line": "Plane — Arcavios",
+    "oracle_text": "Instant and sorcery spells players cast have demonstrate. (Whenever a player casts an instant or sorcery spell, they may copy it. If they do, they choose an opponent to also copy it. Players may choose new targets for their copies.)\nWhenever chaos ensues, return up to one target instant or sorcery card from a graveyard to its owner's hand."
   },
   {
     "object": "card",
@@ -2019,7 +2173,9 @@
       "png": "https://cards.scryfall.io/png/front/d/2/d2603e7a-1b1b-4f71-81d9-7e84c766312d.png?1680815497",
       "art_crop": "https://cards.scryfall.io/art_crop/front/d/2/d2603e7a-1b1b-4f71-81d9-7e84c766312d.jpg?1680815497",
       "border_crop": "https://cards.scryfall.io/border_crop/front/d/2/d2603e7a-1b1b-4f71-81d9-7e84c766312d.jpg?1680815497"
-    }
+    },
+    "type_line": "Plane — Shenmeng",
+    "oracle_text": "Whenever you roll the planar die, put a +1/+1 counter on up to one target creature.\nWhenever chaos ensues, creatures you control gain flying until end of turn."
   },
   {
     "object": "card",
@@ -2045,7 +2201,9 @@
       "png": "https://cards.scryfall.io/png/front/6/d/6d37cf73-e128-4367-b030-313d987fda7a.png?1681345506",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/d/6d37cf73-e128-4367-b030-313d987fda7a.jpg?1681345506",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/d/6d37cf73-e128-4367-b030-313d987fda7a.jpg?1681345506"
-    }
+    },
+    "type_line": "Plane — Kamigawa",
+    "oracle_text": "Modified creatures you control have trample and \"Whenever this creature deals combat damage to a player or planeswalker, draw a card.\" (Equipment, Auras you control, and counters are modifications.)\nWhenever chaos ensues, distribute three +1/+1 counters among one, two, or three target creatures you control."
   },
   {
     "object": "card",
@@ -2071,7 +2229,9 @@
       "png": "https://cards.scryfall.io/png/front/6/e/6ef8454d-1aac-4907-91cf-535ea679042c.png?1680815503",
       "art_crop": "https://cards.scryfall.io/art_crop/front/6/e/6ef8454d-1aac-4907-91cf-535ea679042c.jpg?1680815503",
       "border_crop": "https://cards.scryfall.io/border_crop/front/6/e/6ef8454d-1aac-4907-91cf-535ea679042c.jpg?1680815503"
-    }
+    },
+    "type_line": "Plane — Zhalfir",
+    "oracle_text": "At the beginning of your end step, if you planeswalked to Unyaro this turn, untap all creatures. They phase out until a player planeswalks. (Treat them and anything attached to them as though they didn't exist.)\nWhenever chaos ensues, create two 2/2 white and blue Knight creature tokens with vigilance."
   },
   {
     "object": "card",
@@ -2097,7 +2257,9 @@
       "png": "https://cards.scryfall.io/png/front/4/5/450ed99e-7fb6-45d3-b043-27ff58fe8dbb.png?1681017547",
       "art_crop": "https://cards.scryfall.io/art_crop/front/4/5/450ed99e-7fb6-45d3-b043-27ff58fe8dbb.jpg?1681017547",
       "border_crop": "https://cards.scryfall.io/border_crop/front/4/5/450ed99e-7fb6-45d3-b043-27ff58fe8dbb.jpg?1681017547"
-    }
+    },
+    "type_line": "Plane — Kylem",
+    "oracle_text": "Whenever your team attacks with exactly two creatures, those creatures gain double strike until end of turn.\nWhenever chaos ensues, untap up to two target creatures your team controls. If it's a main phase, there is an additional combat phase after this phase, followed by an additional main phase."
   },
   {
     "object": "card",
@@ -2123,7 +2285,9 @@
       "png": "https://cards.scryfall.io/png/front/4/a/4a0e558d-cfd7-4ecf-b951-50016e8cc569.png?1680815506",
       "art_crop": "https://cards.scryfall.io/art_crop/front/4/a/4a0e558d-cfd7-4ecf-b951-50016e8cc569.jpg?1680815506",
       "border_crop": "https://cards.scryfall.io/border_crop/front/4/a/4a0e558d-cfd7-4ecf-b951-50016e8cc569.jpg?1680815506"
-    }
+    },
+    "type_line": "Plane — Gobakhan",
+    "oracle_text": "Prevent all damage that would be dealt to creatures and planeswalkers you control.\nWhenever chaos ensues, create three tapped Treasure tokens. They each deal 1 damage to each creature and each planeswalker."
   },
   {
     "object": "card",
@@ -2149,7 +2313,9 @@
       "png": "https://cards.scryfall.io/png/front/1/f/1fccd76c-cce9-4ae3-84c1-000e54ca4734.png?1680815512",
       "art_crop": "https://cards.scryfall.io/art_crop/front/1/f/1fccd76c-cce9-4ae3-84c1-000e54ca4734.jpg?1680815512",
       "border_crop": "https://cards.scryfall.io/border_crop/front/1/f/1fccd76c-cce9-4ae3-84c1-000e54ca4734.jpg?1680815512"
-    }
+    },
+    "type_line": "Plane — Eldraine",
+    "oracle_text": "When you planeswalk to The Wilds and at the beginning of your upkeep, create a Food token.\nWhenever chaos ensues, target player sacrifices a creature. If they do, you create a Food token. You create two Food tokens instead if the sacrificed creature's toughness was 4 or greater."
   },
   {
     "object": "card",
@@ -2175,7 +2341,9 @@
       "png": "https://cards.scryfall.io/png/front/a/2/a22dfe5f-82cc-4d99-b454-82157ffd6a59.png?1680815515",
       "art_crop": "https://cards.scryfall.io/art_crop/front/a/2/a22dfe5f-82cc-4d99-b454-82157ffd6a59.jpg?1680815515",
       "border_crop": "https://cards.scryfall.io/border_crop/front/a/2/a22dfe5f-82cc-4d99-b454-82157ffd6a59.jpg?1680815515"
-    }
+    },
+    "type_line": "Plane — Iquatana",
+    "oracle_text": "When you planeswalk to The Aether Flues and at the beginning of your upkeep, you may sacrifice a creature. If you do, reveal cards from the top of your library until you reveal a creature card, put that card onto the battlefield, then shuffle all other cards revealed this way into your library.\nWhenever chaos ensues, you may put a creature card from your hand onto the battlefield."
   },
   {
     "object": "card",
@@ -2201,7 +2369,9 @@
       "png": "https://cards.scryfall.io/png/front/9/9/9944763b-07b1-447d-b07c-b585ec00e883.png?1680815516",
       "art_crop": "https://cards.scryfall.io/art_crop/front/9/9/9944763b-07b1-447d-b07c-b585ec00e883.jpg?1680815516",
       "border_crop": "https://cards.scryfall.io/border_crop/front/9/9/9944763b-07b1-447d-b07c-b585ec00e883.jpg?1680815516"
-    }
+    },
+    "type_line": "Plane — Equilor",
+    "oracle_text": "Whenever a creature enters the battlefield, it gains double strike and haste until end of turn.\nWhenever chaos ensues, exile target nontoken creature you control, then return it to the battlefield under your control."
   },
   {
     "object": "card",
@@ -2227,7 +2397,9 @@
       "png": "https://cards.scryfall.io/png/front/c/b/cb03f60c-d317-4b4c-9747-380abf5fa7ef.png?1680815520",
       "art_crop": "https://cards.scryfall.io/art_crop/front/c/b/cb03f60c-d317-4b4c-9747-380abf5fa7ef.jpg?1680815520",
       "border_crop": "https://cards.scryfall.io/border_crop/front/c/b/cb03f60c-d317-4b4c-9747-380abf5fa7ef.jpg?1680815520"
-    }
+    },
+    "type_line": "Plane — Innistrad",
+    "oracle_text": "All creatures have vigilance.\nWhenever chaos ensues, creatures you control gain indestructible until end of turn."
   },
   {
     "object": "card",
@@ -2253,7 +2425,9 @@
       "png": "https://cards.scryfall.io/png/front/a/0/a075316c-eb94-46a5-98f2-061b1674186f.png?1680815529",
       "art_crop": "https://cards.scryfall.io/art_crop/front/a/0/a075316c-eb94-46a5-98f2-061b1674186f.jpg?1680815529",
       "border_crop": "https://cards.scryfall.io/border_crop/front/a/0/a075316c-eb94-46a5-98f2-061b1674186f.jpg?1680815529"
-    }
+    },
+    "type_line": "Plane — Mirrodin",
+    "oracle_text": "Whenever a player casts an instant or sorcery spell with a single target, that player copies that spell for each other spell, permanent, card not on the battlefield, and/or player the spell could target. Each copy targets a different one of them.\nWhenever chaos ensues, choose target creature. Each player except that creature's controller creates a token that's a copy of that creature."
   },
   {
     "object": "card",
@@ -2279,7 +2453,9 @@
       "png": "https://cards.scryfall.io/png/front/0/4/04075c37-1c1c-439c-9c54-770185fc0af1.png?1680815530",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/4/04075c37-1c1c-439c-9c54-770185fc0af1.jpg?1680815530",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/4/04075c37-1c1c-439c-9c54-770185fc0af1.jpg?1680815530"
-    }
+    },
+    "type_line": "Plane — Lorwyn",
+    "oracle_text": "Each creature assigns combat damage equal to its toughness rather than its power.\nWhenever chaos ensues, creatures you control get +0/+2 and gain trample until end of turn."
   },
   {
     "object": "card",
@@ -2305,7 +2481,9 @@
       "png": "https://cards.scryfall.io/png/front/c/2/c2cd3e28-cc48-416d-83d2-74208d2f4aa9.png?1680815530",
       "art_crop": "https://cards.scryfall.io/art_crop/front/c/2/c2cd3e28-cc48-416d-83d2-74208d2f4aa9.jpg?1680815530",
       "border_crop": "https://cards.scryfall.io/border_crop/front/c/2/c2cd3e28-cc48-416d-83d2-74208d2f4aa9.jpg?1680815530"
-    }
+    },
+    "type_line": "Plane — Fabacin",
+    "oracle_text": "When you planeswalk to Grove of the Dreampods and at the beginning of your upkeep, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.\nWhenever chaos ensues, return target creature card from your graveyard to the battlefield."
   },
   {
     "object": "card",
@@ -2331,7 +2509,9 @@
       "png": "https://cards.scryfall.io/png/front/2/5/2588d0a3-0e63-4976-8fcc-cd6bc52b61aa.png?1680815532",
       "art_crop": "https://cards.scryfall.io/art_crop/front/2/5/2588d0a3-0e63-4976-8fcc-cd6bc52b61aa.jpg?1680815532",
       "border_crop": "https://cards.scryfall.io/border_crop/front/2/5/2588d0a3-0e63-4976-8fcc-cd6bc52b61aa.jpg?1680815532"
-    }
+    },
+    "type_line": "Plane — Zendikar",
+    "oracle_text": "Creatures with power 7 or greater can't attack or block.\nWhenever chaos ensues, create a 7/7 colorless Eldrazi creature token with annihilator 1. (Whenever it attacks, defending player sacrifices a permanent.)"
   },
   {
     "object": "card",
@@ -2357,7 +2537,9 @@
       "png": "https://cards.scryfall.io/png/front/5/f/5fa27faa-f72c-4925-8ad5-c984113245bf.png?1680815534",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/f/5fa27faa-f72c-4925-8ad5-c984113245bf.jpg?1680815534",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/f/5fa27faa-f72c-4925-8ad5-c984113245bf.jpg?1680815534"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "Whenever a nontoken creature enters the battlefield, its controller creates a token that's a copy of that creature.\nWhenever chaos ensues, destroy target creature and all other creatures with the same name as that creature."
   },
   {
     "object": "card",
@@ -2383,7 +2565,9 @@
       "png": "https://cards.scryfall.io/png/front/5/8/585fde63-4cb5-4235-8c95-2a7a511e7c3f.png?1680815543",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/8/585fde63-4cb5-4235-8c95-2a7a511e7c3f.jpg?1680815543",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/8/585fde63-4cb5-4235-8c95-2a7a511e7c3f.jpg?1680815543"
-    }
+    },
+    "type_line": "Plane — Alara",
+    "oracle_text": "Whenever a player casts a creature spell that's black, red, or green, it gains devour 5. (As the creature enters the battlefield, its controller may sacrifice any number of creatures. The creature enters the battlefield with five times that many +1/+1 counters on it.)\nWhenever chaos ensues, create two 1/1 red Goblin creature tokens."
   },
   {
     "object": "card",
@@ -2409,7 +2593,9 @@
       "png": "https://cards.scryfall.io/png/front/f/9/f9724517-9e6b-4cb3-a3f7-ea8706f49fe9.png?1680815545",
       "art_crop": "https://cards.scryfall.io/art_crop/front/f/9/f9724517-9e6b-4cb3-a3f7-ea8706f49fe9.jpg?1680815545",
       "border_crop": "https://cards.scryfall.io/border_crop/front/f/9/f9724517-9e6b-4cb3-a3f7-ea8706f49fe9.jpg?1680815545"
-    }
+    },
+    "type_line": "Plane — Mongseng",
+    "oracle_text": "Whenever a creature you control attacks a player, for each other opponent, you may create a token that's a copy of that creature, tapped and attacking that opponent. Exile those tokens at the beginning of the next end step.\nWhenever chaos ensues, you may sacrifice any number of creatures. If you do, Kharasha Foothills deals that much damage to target creature."
   },
   {
     "object": "card",
@@ -2435,7 +2621,9 @@
       "png": "https://cards.scryfall.io/png/front/8/6/86b5e553-c871-4750-a839-82b7581c5a2d.png?1680815546",
       "art_crop": "https://cards.scryfall.io/art_crop/front/8/6/86b5e553-c871-4750-a839-82b7581c5a2d.jpg?1680815546",
       "border_crop": "https://cards.scryfall.io/border_crop/front/8/6/86b5e553-c871-4750-a839-82b7581c5a2d.jpg?1680815546"
-    }
+    },
+    "type_line": "Plane — Dominaria",
+    "oracle_text": "All creatures get +2/+2.\nWhenever chaos ensues, you may add {W}{U}{B}{R}{G}."
   },
   {
     "object": "card",
@@ -2461,7 +2649,9 @@
       "png": "https://cards.scryfall.io/png/front/1/2/12655e0d-bb32-4aff-940a-fe14675629ca.png?1680815549",
       "art_crop": "https://cards.scryfall.io/art_crop/front/1/2/12655e0d-bb32-4aff-940a-fe14675629ca.jpg?1680815549",
       "border_crop": "https://cards.scryfall.io/border_crop/front/1/2/12655e0d-bb32-4aff-940a-fe14675629ca.jpg?1680815549"
-    }
+    },
+    "type_line": "Plane — Kamigawa",
+    "oracle_text": "Whenever a creature you control deals combat damage to a player, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nWhenever chaos ensues, target creature can't be blocked this turn."
   },
   {
     "object": "card",
@@ -2487,7 +2677,9 @@
       "png": "https://cards.scryfall.io/png/front/e/c/ecab1a2d-a47a-4572-a133-aca40384a908.png?1680815558",
       "art_crop": "https://cards.scryfall.io/art_crop/front/e/c/ecab1a2d-a47a-4572-a133-aca40384a908.jpg?1680815558",
       "border_crop": "https://cards.scryfall.io/border_crop/front/e/c/ecab1a2d-a47a-4572-a133-aca40384a908.jpg?1680815558"
-    }
+    },
+    "type_line": "Plane — Mirrodin",
+    "oracle_text": "When you planeswalk to Panopticon, draw a card.\nAt the beginning of your draw step, draw an additional card.\nWhenever chaos ensues, draw a card."
   },
   {
     "object": "card",
@@ -2513,7 +2705,9 @@
       "png": "https://cards.scryfall.io/png/front/e/a/ea1537e5-b1a8-4735-acd4-9df627a8946c.png?1680815564",
       "art_crop": "https://cards.scryfall.io/art_crop/front/e/a/ea1537e5-b1a8-4735-acd4-9df627a8946c.jpg?1680815564",
       "border_crop": "https://cards.scryfall.io/border_crop/front/e/a/ea1537e5-b1a8-4735-acd4-9df627a8946c.jpg?1680815564"
-    }
+    },
+    "type_line": "Plane — Ravnica",
+    "oracle_text": "If an effect would create one or more tokens, it creates twice that many of those tokens instead.\nIf an effect would put one or more counters on a permanent, it puts twice that many of those counters on that permanent instead.\nWhenever chaos ensues, until end of turn, whenever you tap a land for mana, add one mana of any type that land produced."
   },
   {
     "object": "card",
@@ -2539,7 +2733,9 @@
       "png": "https://cards.scryfall.io/png/front/a/7/a70f7633-0851-4205-a736-3b11d4823f10.png?1680815565",
       "art_crop": "https://cards.scryfall.io/art_crop/front/a/7/a70f7633-0851-4205-a736-3b11d4823f10.jpg?1680815565",
       "border_crop": "https://cards.scryfall.io/border_crop/front/a/7/a70f7633-0851-4205-a736-3b11d4823f10.jpg?1680815565"
-    }
+    },
+    "type_line": "Plane — Kamigawa",
+    "oracle_text": "All creatures get +1/+1 and have haste.\nWhenever chaos ensues, untap all creatures that attacked this turn. If it's a main phase, there is an additional combat phase after this phase, followed by an additional main phase."
   },
   {
     "object": "card",
@@ -2565,7 +2761,9 @@
       "png": "https://cards.scryfall.io/png/front/c/3/c31b0240-38c7-4f0b-a851-cbfdfee9d193.png?1680815571",
       "art_crop": "https://cards.scryfall.io/art_crop/front/c/3/c31b0240-38c7-4f0b-a851-cbfdfee9d193.jpg?1680815571",
       "border_crop": "https://cards.scryfall.io/border_crop/front/c/3/c31b0240-38c7-4f0b-a851-cbfdfee9d193.jpg?1680815571"
-    }
+    },
+    "type_line": "Plane — Innistrad",
+    "oracle_text": "Whenever a creature deals damage to one or more players for the first time each turn, put a +1/+1 counter on it.\nWhenever chaos ensues, each creature you control gains \"{T}: This creature deals 1 damage to target player or planeswalker\" until end of turn."
   },
   {
     "object": "card",
@@ -2591,7 +2789,9 @@
       "png": "https://cards.scryfall.io/png/front/0/f/0ff946f3-a536-4b35-b953-e66667314afa.png?1680815573",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/f/0ff946f3-a536-4b35-b953-e66667314afa.jpg?1680815573",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/f/0ff946f3-a536-4b35-b953-e66667314afa.jpg?1680815573"
-    }
+    },
+    "type_line": "Plane — Rath",
+    "oracle_text": "If a source would deal damage to a permanent or player, it deals double that damage instead.\nWhenever chaos ensues, Stronghold Furnace deals 1 damage to any target."
   },
   {
     "object": "card",
@@ -2617,7 +2817,9 @@
       "png": "https://cards.scryfall.io/png/front/b/d/bd6aa726-9979-42a5-a9ad-5c3f40b599ae.png?1680815578",
       "art_crop": "https://cards.scryfall.io/art_crop/front/b/d/bd6aa726-9979-42a5-a9ad-5c3f40b599ae.jpg?1680815578",
       "border_crop": "https://cards.scryfall.io/border_crop/front/b/d/bd6aa726-9979-42a5-a9ad-5c3f40b599ae.jpg?1680815578"
-    }
+    },
+    "type_line": "Plane — Ergamon",
+    "oracle_text": "All lands have \"{T}: Add one mana of any color.\"\nWhenever chaos ensues, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest on the bottom of your library in any order."
   },
   {
     "object": "card",
@@ -2643,7 +2845,9 @@
       "png": "https://cards.scryfall.io/png/front/7/0/70d12cff-ba93-4673-832c-f9261c1501cd.png?1680815582",
       "art_crop": "https://cards.scryfall.io/art_crop/front/7/0/70d12cff-ba93-4673-832c-f9261c1501cd.jpg?1680815582",
       "border_crop": "https://cards.scryfall.io/border_crop/front/7/0/70d12cff-ba93-4673-832c-f9261c1501cd.jpg?1680815582"
-    }
+    },
+    "type_line": "Plane — Ir",
+    "oracle_text": "Creature spells cost {2} less to cast.\nWhenever chaos ensues, reveal the top three cards of your library. Put all creature cards revealed this way into your hand and the rest into your graveyard."
   },
   {
     "object": "card",
@@ -2669,7 +2873,9 @@
       "png": "https://cards.scryfall.io/png/front/8/7/87a6b20d-93f8-4af4-936c-11606e9efd87.png?1680815584",
       "art_crop": "https://cards.scryfall.io/art_crop/front/8/7/87a6b20d-93f8-4af4-936c-11606e9efd87.jpg?1680815584",
       "border_crop": "https://cards.scryfall.io/border_crop/front/8/7/87a6b20d-93f8-4af4-936c-11606e9efd87.jpg?1680815584"
-    }
+    },
+    "type_line": "Plane — Ravnica",
+    "oracle_text": "Whenever a creature deals combat damage to a player, its controller may draw a card.\nWhenever chaos ensues, you have no maximum hand size for the rest of the game."
   },
   {
     "object": "card",
@@ -2695,7 +2901,9 @@
       "png": "https://cards.scryfall.io/png/front/5/6/56e4874c-9d3d-4a1c-a027-186a33ce0da7.png?1547432164",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/6/56e4874c-9d3d-4a1c-a027-186a33ce0da7.jpg?1547432164",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/6/56e4874c-9d3d-4a1c-a027-186a33ce0da7.jpg?1547432164"
-    }
+    },
+    "type_line": "Phenomenon",
+    "oracle_text": "When you encounter Interplanar Tunnel, reveal cards from the top of your planar deck until you reveal five plane cards. Put a plane card from among them on top of your planar deck, then put the rest of the revealed cards on the bottom in a random order. (Then planeswalk away from this phenomenon.)"
   },
   {
     "object": "card",
@@ -2721,7 +2929,9 @@
       "png": "https://cards.scryfall.io/png/front/5/4/54327aa2-319d-4430-a266-03cadeed6146.png?1547432267",
       "art_crop": "https://cards.scryfall.io/art_crop/front/5/4/54327aa2-319d-4430-a266-03cadeed6146.jpg?1547432267",
       "border_crop": "https://cards.scryfall.io/border_crop/front/5/4/54327aa2-319d-4430-a266-03cadeed6146.jpg?1547432267"
-    }
+    },
+    "type_line": "Phenomenon",
+    "oracle_text": "When you encounter Morphic Tide, each player shuffles all permanents they own into their library, then reveals that many cards from the top of their library. Each player puts all artifact, creature, land, and planeswalker cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of their library in any order. (Then planeswalk away from this phenomenon.)"
   },
   {
     "object": "card",
@@ -2747,7 +2957,9 @@
       "png": "https://cards.scryfall.io/png/front/b/a/ba38fb01-ea16-4a2d-964a-41f7b4d74024.png?1547432189",
       "art_crop": "https://cards.scryfall.io/art_crop/front/b/a/ba38fb01-ea16-4a2d-964a-41f7b4d74024.jpg?1547432189",
       "border_crop": "https://cards.scryfall.io/border_crop/front/b/a/ba38fb01-ea16-4a2d-964a-41f7b4d74024.jpg?1547432189"
-    }
+    },
+    "type_line": "Phenomenon",
+    "oracle_text": "When you encounter Time Distortion, reverse the game's turn order. (For example, if play had proceeded clockwise around the table, it now goes counterclockwise. Then planeswalk away from this phenomenon.)"
   },
   {
     "object": "card",
@@ -2773,7 +2985,9 @@
       "png": "https://cards.scryfall.io/png/front/e/6/e6632cd1-aa23-46d0-8e72-0850de4873e1.png?1680815517",
       "art_crop": "https://cards.scryfall.io/art_crop/front/e/6/e6632cd1-aa23-46d0-8e72-0850de4873e1.jpg?1680815517",
       "border_crop": "https://cards.scryfall.io/border_crop/front/e/6/e6632cd1-aa23-46d0-8e72-0850de4873e1.jpg?1680815517"
-    }
+    },
+    "type_line": "Phenomenon",
+    "oracle_text": "When you encounter Chaotic Aether, each blank roll of the planar die is a {CHAOS} roll until a player planeswalks away from a plane. (Then planeswalk away from this phenomenon.)"
   },
   {
     "object": "card",
@@ -2799,7 +3013,9 @@
       "png": "https://cards.scryfall.io/png/front/b/e/be4da23c-bc51-4601-8f86-4e6f4eb27e6a.png?1680815547",
       "art_crop": "https://cards.scryfall.io/art_crop/front/b/e/be4da23c-bc51-4601-8f86-4e6f4eb27e6a.jpg?1680815547",
       "border_crop": "https://cards.scryfall.io/border_crop/front/b/e/be4da23c-bc51-4601-8f86-4e6f4eb27e6a.jpg?1680815547"
-    }
+    },
+    "type_line": "Phenomenon",
+    "oracle_text": "When you encounter Mutual Epiphany, each player draws four cards. (Then planeswalk away from this phenomenon.)"
   },
   {
     "object": "card",
@@ -2825,7 +3041,9 @@
       "png": "https://cards.scryfall.io/png/front/0/5/0518b7a0-3bbb-4802-9faf-3f4256671e9e.png?1680815558",
       "art_crop": "https://cards.scryfall.io/art_crop/front/0/5/0518b7a0-3bbb-4802-9faf-3f4256671e9e.jpg?1680815558",
       "border_crop": "https://cards.scryfall.io/border_crop/front/0/5/0518b7a0-3bbb-4802-9faf-3f4256671e9e.jpg?1680815558"
-    }
+    },
+    "type_line": "Phenomenon",
+    "oracle_text": "When you encounter Planewide Disaster, destroy all creatures. (Then planeswalk away from this phenomenon.)"
   },
   {
     "object": "card",
@@ -2851,7 +3069,9 @@
       "png": "https://cards.scryfall.io/png/front/2/0/203c69fe-2ca5-45b2-9be8-e0443733c821.png?1680815559",
       "art_crop": "https://cards.scryfall.io/art_crop/front/2/0/203c69fe-2ca5-45b2-9be8-e0443733c821.jpg?1680815559",
       "border_crop": "https://cards.scryfall.io/border_crop/front/2/0/203c69fe-2ca5-45b2-9be8-e0443733c821.jpg?1680815559"
-    }
+    },
+    "type_line": "Phenomenon",
+    "oracle_text": "When you encounter Reality Shaping, starting with you, each player may put a permanent card from their hand onto the battlefield. (Then planeswalk away from this phenomenon.)"
   },
   {
     "object": "card",
@@ -2877,6 +3097,8 @@
       "png": "https://cards.scryfall.io/png/front/a/c/ac3d5e6a-64e6-4888-915f-874109e7830a.png?1680815571",
       "art_crop": "https://cards.scryfall.io/art_crop/front/a/c/ac3d5e6a-64e6-4888-915f-874109e7830a.jpg?1680815571",
       "border_crop": "https://cards.scryfall.io/border_crop/front/a/c/ac3d5e6a-64e6-4888-915f-874109e7830a.jpg?1680815571"
-    }
+    },
+    "type_line": "Phenomenon",
+    "oracle_text": "When you encounter Spatial Merging, reveal cards from the top of your planar deck until you reveal two plane cards. Simultaneously planeswalk to both of them. Put all other cards revealed this way on the bottom of your planar deck in any order."
   }
 ]
