@@ -67,21 +67,41 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   border: solid 1px black;
   margin:  5px 10px 15px 10px;
   border-radius: 16px;
+  cursor: pointer;
+  position: relative;
 }
 
 .main_card img {
   width: 60%;
   transform: rotate(90deg) translate(-30px);
   border-radius: 16px;
+  position: absolute;
 }
 
-.main_card_ame {
-  font-size: 24px;
-  transform: translateY(-30px);
+.main_card_text {
+  padding: 200px 0 0 0;
+}
+
+.move_up {
+  /* transform: translateY(-50px); */
+}
+
+.main_card_name {
+  font-size: 24px;  
+  align-self: center;
+  padding: 10px 30px;
+}
+
+.main_card_type {
+  padding: 0 30px;
+}
+
+.main_card_oracle {
+  padding: 10px 30px;
 }
 
 .selection_main {

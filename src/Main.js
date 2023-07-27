@@ -28,8 +28,8 @@ const Main = () => {
 
   const handleCardSelect = (e) => {
     e.preventDefault();
-    navigate(`/card/${e.currentTarget.id}`)
-    window.scrollTo(0, 0);
+    // navigate(`/card/${e.currentTarget.id}`)
+    // window.scrollTo(0, 0);
   }
 
 
@@ -42,8 +42,17 @@ const Main = () => {
             return (
               <div key={ind} id={planes[Object.keys(plane)].tcgplayer_id} className='main_card' onClick={handleCardSelect}>
                 <img src={planes[Object.keys(plane)].image_uris.normal} alt={planes[Object.keys(plane)].name} />
-                <div className='main_card_name'>
-                  {planes[Object.keys(plane)].name}
+                <div className='main_card_textbox'>
+                  <p className='main_card_name move_up'>
+                    {planes[Object.keys(plane)].name}
+                  </p>
+                  <p className='main_card_type move_up'>
+                    Type: {planes[Object.keys(plane)].type_line}
+                  </p>
+                  <hr className='move_up' />
+                  <p className='main_card_oracle move_up'>
+                    {planes[Object.keys(plane)].oracle_text}
+                  </p>
                 </div>
               </div>
             )
@@ -52,7 +61,7 @@ const Main = () => {
           }
         })}
       </div>
-    </div>
+    </div >
   )
 }
 
