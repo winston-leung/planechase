@@ -1,6 +1,5 @@
 import planes from "./planes.json";
 
-
 const Selection = () => {
   const count = planes.length;
   const [planeChecklist, setPlaneChecklist] = useState(planes.reduce((acc, cur) => {
@@ -44,10 +43,10 @@ const Selection = () => {
   }
 
   return (
-    <div className='main'>
-      <div className='sidebar'>
-        <form className='form'>
-          <div className='buttons'>
+    <div className='selection_main'>
+      <div className='selection_sidebar'>
+        <form className='selection_form'>
+          <div className='selection_buttons'>
             <button>Start</button>
             <button onClick={handleSelectAll}>Select All</button>
           </div>
@@ -55,16 +54,16 @@ const Selection = () => {
           {planeChecklist.map(list => {
             return (
               <div onMouseOver={handleHover} id={list.id} key={list.name}>
-                <input type='checkbox' checked={list.selected} onChange={handleCheck} id={list.id} />
-                <label className='plane'  >{list.name}</label>
+                <input type='selection_checkbox' checked={list.selected} onChange={handleCheck} id={list.id} />
+                <label className='selection_plane'  >{list.name}</label>
               </div>
             )
           })}
         </form>
       </div >
-      <div className='maindiv'>
-        <div className='imgdiv'>
-          {imageURL ? <img className='preview' src={imageURL} /> : ""}
+      <div className='selection_maindiv'>
+        <div className='selection_imgdiv'>
+          {imageURL ? <img className='selection_preview' src={imageURL} /> : ""}
         </div>
       </div>
     </div >
