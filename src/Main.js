@@ -1,13 +1,11 @@
 import { useState } from 'react';
 import planes from './planes.json';
-import { useNavigate } from "react-router-dom";
 
 const Main = () => {
   const [list, setList] = useState(planes.reduce((acc, cur, ind) => {
     acc.push({ [ind]: true });
     return acc;
   }, []))
-  const navigate = useNavigate();
   const [searchBoxValue, setSearchBoxValue] = useState("")
 
   const handleSearchChange = (e) => {
@@ -26,13 +24,6 @@ const Main = () => {
     setList(newList);
   }
 
-  const handleCardSelect = (e) => {
-    e.preventDefault();
-    // navigate(`/card/${e.currentTarget.id}`)
-    // window.scrollTo(0, 0);
-  }
-
-
   return (
     <div className="main_body">
       <input type="main_box" className='searchbox' onChange={handleSearchChange} value={searchBoxValue} />
@@ -40,7 +31,7 @@ const Main = () => {
         {list.map((plane, ind) => {
           if (plane[ind]) {
             return (
-              <div key={ind} id={planes[Object.keys(plane)].tcgplayer_id} className='main_card' onClick={handleCardSelect}>
+              <a key={ind} className='main_card' href={`/card/${planes[Object.keys(plane)].tcgplayer_id}`} >
                 <img src={planes[Object.keys(plane)].image_uris.normal} alt={planes[Object.keys(plane)].name} />
                 <div className='main_card_textbox'>
                   <p className='main_card_name move_up'>
@@ -54,7 +45,7 @@ const Main = () => {
                     {planes[Object.keys(plane)].oracle_text}
                   </p>
                 </div>
-              </div>
+              </a>
             )
           } else {
             return <div />

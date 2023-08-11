@@ -4,8 +4,8 @@
 const Header = () => {
 
   return (
-    <div>
-      <div className='title'>Planechase</div>
+    <div className="header">
+      <a href="/" className='header_title'>Planechase</a>
     </div>
   )
 }
