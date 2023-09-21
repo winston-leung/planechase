@@ -52,15 +52,34 @@ const Selection = () => {
             <button onClick={handleStart}>Start</button>
             <button onClick={handleSelectAll}>Select All</button>
           </div>
-          Selected: {checkedCount} of {count}
-          {state?.select && state.select.map(list => {
-            return (
-              <div onMouseOver={handleHover} id={list.id} key={list.name}>
-                <input type='checkbox' className='selection_checkbox' checked={list.selected} onChange={handleCheck} id={list.id} />
-                <label className='selection_plane'>{list.name}</label>
-              </div>
-            )
-          })}
+          <p>
+            Selected: {checkedCount} of {count}
+          </p>
+          <ul>
+
+            {state?.select && state.select.map(plane => {
+              return (
+                <li
+                  onMouseOver={handleHover}
+                  id={plane.id}
+                  key={plane.name}
+                >
+                  <input
+                    type='checkbox'
+                    className='selection_checkbox'
+                    checked={plane.selected}
+                    onChange={handleCheck}
+                    id={plane.id} />
+                  <label
+                    className='selection_plane'
+                    htmlFor={plane.id}
+                  >
+                    {plane.name}
+                  </label>
+                </li>
+              )
+            })}
+          </ul>
         </form>
       </div >
       <div className='selection_maindiv'>
