@@ -1,0 +1,67 @@
+.main_body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  flex-direction: column;
+}
+
+.main_searchbox {
+  position: absolute;
+  top: 2.25%;
+  right: 4.5%;
+  font-family: var(--font);
+  background-color: rgb(221, 221, 221);
+  height: 1.75em;
+  width: 200px;
+  padding: 4px 10px;
+  /* border-radius: 16px; */
+  border: solid rgb(221, 221, 221) 4px; 
+  outline: none;
+  transition: border 0.75s ease;
+  
+}
+
+@keyframes circularAnim {
+  from {
+    border-color: rgb(221, 221, 221);
+    }
+  25% {
+    border-top-color: black;
+    border-right-color: rgb(221, 221, 221);
+    border-bottom-color: rgb(221, 221, 221);
+    border-left-color: rgb(221, 221, 221);
+  }
+  50% {
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: rgb(221, 221, 221);
+    border-left-color: rgb(221, 221, 221);
+  }
+  75% {
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: rgb(221, 221, 221);
+  }
+  to {
+    border-color: black;
+  }
+} 
+
+.main_searchbox:focus, .main_searchbox:hover{
+  animation: circularAnim 0.6s ease 1 forwards;
+  border-color: black;
+  transform-origin: right;
+}
+
+.main_grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  transform: translateZ(0);
+  padding: 0 1.5rem;
+  flex-direction: row;
+}
+

@@ -1,45 +1,47 @@
-import planes from "./planes.json";
+import { useContext, useState } from 'react';
+import { PlanesContext } from './PlanesContext';
+import { useNavigate } from "react-router-dom";
 
 const Selection = () => {
-  const count = planes.length;
-  const [planeChecklist, setPlaneChecklist] = useState(planes.reduce((acc, cur) => {
-
-    acc.push({ name: cur.name, selected: true, id: cur.id });
-    acc.sort((a, b) => {
-      const nameA = a.name.toUpperCase();
-      const nameB = b.name.toUpperCase();
-      if (nameA < nameB) return -1;
-      if (nameA > nameB) return 1;
-      return 0;
-    });
-    return acc;
-  }, []))
-  const checkedCount = planeChecklist.reduce((acc, cur) => {
+  const { state, actions: { handleSelect } } = useContext(PlanesContext)
+  const count = state.planes.length;
+  const checkedCount = !state?.select ? 0 : state.select.reduce((acc, cur) => {
     if (cur.selected) acc++;
     return acc;
-  }, 0)
-  const [imageURL, setImageURL] = useState("");
+  }, 0);
+  const [image, setImage] = useState("");
+  const [mount, reMount] = useState(true);
+  const navigate = useNavigate();
 
   const handleHover = (e) => {
-    const sel = planes.find(plane => plane.id === e.currentTarget.id)
+    const sel = state.planes.find(plane => plane.id === e.currentTarget.id)
 
-    if (sel) setImageURL(sel.image_uris.large);
+    if (sel) setImage({ img: sel.image_uris.large, name: sel.name });
   }
   const handleCheck = (e) => {
-    const newList = [...planeChecklist];
+    e.preventDefault();
+    console.log(e.currentTarget)
+    const newList = [...state.select];
     newList.forEach(line => {
-      if (line.id === e.target.id) line.selected = e.target.checked;
+      if (line.id === e.currentTarget.id) line.selected = e.currentTarget.checked;
     })
-    setPlaneChecklist(newList);
+    handleSelect(newList);
+    reMount(!mount)
   }
 
   const handleSelectAll = (e) => {
     e.preventDefault();
-    const newList = [...planeChecklist];
+    const newList = [...state.select];
     newList.forEach(line => {
       line.selected = true;
     })
-    setPlaneChecklist(newList);
+    handleSelect(newList);
+  }
+
+  const handleStart = (e) => {
+    e.preventDefault();
+    const randNum = Math.floor(Math.random() * 1000000000000000);
+    navigate(`/game/${randNum}/1`);
   }
 
   return (
@@ -47,15 +49,15 @@ const Selection = () => {
       <div className='selection_sidebar'>
         <form className='selection_form'>
           <div className='selection_buttons'>
-            <button>Start</button>
+            <button onClick={handleStart}>Start</button>
             <button onClick={handleSelectAll}>Select All</button>
           </div>
           Selected: {checkedCount} of {count}
-          {planeChecklist.map(list => {
+          {state?.select && state.select.map(list => {
             return (
               <div onMouseOver={handleHover} id={list.id} key={list.name}>
-                <input type='selection_checkbox' checked={list.selected} onChange={handleCheck} id={list.id} />
-                <label className='selection_plane'  >{list.name}</label>
+                <input type='checkbox' className='selection_checkbox' checked={list.selected} onChange={handleCheck} id={list.id} />
+                <label className='selection_plane'>{list.name}</label>
               </div>
             )
           })}
@@ -63,7 +65,7 @@ const Selection = () => {
       </div >
       <div className='selection_maindiv'>
         <div className='selection_imgdiv'>
-          {imageURL ? <img className='selection_preview' src={imageURL} /> : ""}
+          {image ? <img className='selection_preview' src={image.img} alt={image.name} /> : ""}
         </div>
       </div>
     </div >

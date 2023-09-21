@@ -1,20 +1,24 @@
 import { useParams } from "react-router-dom";
-import planes from './planes.json'
+import useFetch from "./useFetch";
 
 
 const Card = () => {
   const cardId = useParams().id
 
-  const cardSelected = planes.find(plane => plane.tcgplayer_id === Number(cardId)
-  )
+  const { data, loading, error } = useFetch(`https://api.scryfall.com/cards/${cardId}`)
+  console.log(error)
+
+
+
+  if (loading) return <div>Loading ...</div>
   return (
     <div className="card">
       <h1>
-        {cardSelected.name}
+        {data.name}
       </h1>
-      <img src={cardSelected.image_uris.normal} alt={cardSelected.name} />
-      <h2>Type: {cardSelected.type_line}</h2>
-      <p>{cardSelected.oracle_text}</p>
+      <img loading="lazy" src={data.image_uris.normal} alt={data.name} />
+      <h2>Type: {data.type_line}</h2>
+      <p>{data.oracle_text}</p>
     </div>
   )
 }

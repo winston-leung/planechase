@@ -1,0 +1,76 @@
+.main_card {
+  font-family: var(--font);
+  border-radius: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 4px 7px 10px 15px rgba(0,0,0,0.75), 0 0 0 10px black;
+  background-color: rgb(221, 221, 221);
+  display: inline-block;
+  max-width: 350px;
+  /* opacity: 0; */
+  transition: transform 0.2s, opacity 1.5s ease;
+}
+
+/* .show {
+  opacity: 1;
+} */
+
+
+.main_card_border {
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  color: black;
+  flex-direction: column;
+}
+
+.main_card:hover {
+  transform: scale(1.04);
+}
+
+.main_card:active, :visited{
+  color: black;
+  
+}
+
+.main_card_image {
+  min-width: 250px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_card img {
+  width: 60%;
+  transform: rotate(90deg); 
+  border-radius: 16px;
+}
+
+.move_up {
+  transform: translateY(-15px);
+  
+}
+.move_up2 {
+  transform: translateY(-55px);
+  
+}
+
+.main_card_name {
+  font-size: 24px;  
+  padding: 0.75rem 2rem;
+}
+
+.main_card_type {
+  padding: 0 2rem;
+}
+
+.main_card_oracle {
+  padding: 0.5rem 2rem;
+}
+
+.main_card_oracle p:first-child {
+  padding-bottom: 15px;
+}

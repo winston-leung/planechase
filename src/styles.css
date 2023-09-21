@@ -42,89 +42,14 @@ table {
 	border-spacing: 0;
 }
 
-
-html {
-  overflow: scroll;
-}
-
 body {
-  background-color: #F0F0F0;
-  font-family: 'Open Sans', sans-serif;
+  background-color: #FCF3FA;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
+:root {
+  --font: 'Roboto', sans-serif
 }
 
-.header_title {
-  font-size: 36px;
-  padding: 10px 0;
-  text-decoration: none;
-}
-
-.main_body {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
-  flex-direction: column;
-}
-
-.main_grid {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.main_card {
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: solid 1px black;
-  margin: 10px;
-  border-radius: 16px;
-  cursor: pointer;
-  background-color: #E6E6E6;
-  text-decoration: none;
-  color: black;
-}
-
-.main_card:active, :visited{
-  color: black;
-}
-
-
-.main_card img {
-  width: 60%;
-  transform: rotate(90deg) translate(-20px);
-  border-radius: 16px;
-}
-
-.move_up {
-  transform: translateY(-30px);
-  
-}
-
-/* .main_card_textbox {
-
-} */
-
-.main_card_name {
-  font-size: 24px;  
-  align-self: center;
-  padding: 10px 30px;
-}
-
-.main_card_type {
-  padding: 0 30px;
-}
-
-.main_card_oracle {
-  padding: 10px 30px;
-}
 
 .selection_main {
   display: flex;
