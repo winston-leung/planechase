@@ -5,9 +5,13 @@ import useMountTransition from './useMoutTransition'
 
 const SmallPlane = ({ planeId }) => {
   const { state } = useContext(PlanesContext)
+
+  // check if the component is mounted and apply a transition
+  // not in use currently
   const isMounted = Boolean(planeId || planeId === 0);
   const hasTransitionedIn = useMountTransition(isMounted, 500);
 
+  // extract the chaos text if it exists
   const chaosIndex = state.planes[planeId].oracle_text.indexOf("Whenever chaos ensues")
   let oracleText = "";
   let chaosText = "";

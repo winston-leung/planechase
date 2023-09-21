@@ -1,54 +1,75 @@
-import { useContext, useState } from "react";
-import { useParams } from "react-router-dom";
-import { PlanesContext } from "./PlanesContext";
-import seedrandom from 'seedrandom'
-import { useNavigate } from "react-router-dom";
 import './selectiongame.css';
+import { useContext, useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { PlanesContext } from "./PlanesContext";
+import useCheckedCount from "./useCheckedCount";
+import useSequence from "./useSequence";
+import useEventListener from './useEventListener';
 
 
 const SelectionGame = () => {
   const { path, card } = useParams();
   const { state } = useContext(PlanesContext);
   const navigate = useNavigate();
-  const [load, setLoad] = useState(true)
+  const [nextImageIndex, setNextImageIndex] = useState(Number(card) + 1);
+  const checkedCount = useCheckedCount();
+  const sequence = useSequence(path);
 
-  const generateSequence = (value) => {
-    const length = !state?.select ? 0 : state.select.reduce((acc, cur) => {
-      if (cur.selected) acc++;
-      return acc;
-    }, 0);
-    const sequence = Array.from({ length: length }, (_, i) => i + 1);
-    const seededRandom = seedrandom(value.toString())
-    for (let i = sequence.length - 1; i > 0; i--) {
-      const j = Math.floor(seededRandom() * (i + 1));
-      [sequence[i], sequence[j]] = [sequence[j], sequence[i]];
-    };
-    return sequence;
-  }
-
-  const sequence = generateSequence(path);
-
-
+  // handle button clicks for navigation
   const handleButton = (e) => {
-    e.preventDefault();
-    if (e.target.id === 'next') {
-      setLoad(!load);
+    if (e.target.id === 'next' && Number(card) <= checkedCount) {
+      setNextImageIndex((prevIndex) => prevIndex + 1);
       navigate(`/game/${path}/${Number(card) + 1}`)
     }
-    if (e.target.id === 'back') {
-      setLoad(!load);
+    if (e.target.id === 'back' && Number(card) > 0) {
       navigate(`/game/${path}/${Number(card) - 1}`)
     }
   }
+  // handle key clicks for navigation
+  const handleKeyPress = (e) => {
+    if (Number(card) + 1 < checkedCount || Number(card) - 1 > 0) {
+      switch (e.key) {
+        case 'ArrowRight':
+          setNextImageIndex((prevIndex) => prevIndex + 1);
+          navigate(`/game/${path}/${Number(card) + 1}`);
+          break;
+        case 'ArrowLeft':
+          navigate(`/game/${path}/${Number(card) - 1}`);
+          break;
+        default:
+          console.log("error")
+          break;
+      }
+    }
+  }
+  useEventListener('keydown', handleKeyPress);
+
+
+  // preload the next image when the component loads
+  useEffect(() => {
+    if (nextImageIndex < checkedCount.length) {
+      const preloadImage = new Image();
+      preloadImage.src = state.planes[nextImageIndex].image_uris.large; // Preload the next image
+      preloadImage.onload = () => {
+        // do nothing on load   
+      };
+    }
+  }, [nextImageIndex, checkedCount, state.planes]);
+
+
   if (sequence.length === 0) return <div>Loading...</div>
   return (
     <div className="game_wrapper">
       <div className="game_image_wrapper">
-        <img src={state.planes[sequence[Number(card) - 1] - 1].image_uris.large} alt={state.planes[sequence[Number(card) - 1] - 1].name}></img>
+        <img
+          src={state.planes[sequence[Number(card) - 1] - 1].image_uris.large}
+          alt={state.planes[sequence[Number(card) - 1] - 1].name}
+        />
       </div>
       <div className="game_button_wrapper">
         <button disabled={Number(card) === 1} id='back' onClick={handleButton}>Back</button>
-        <button disabled={Number(card) === state.select.length} id='next' onClick={handleButton}>Next</button>
+        <button disabled={Number(card) === checkedCount.length} id='next' onClick={handleButton}>Next</button>
       </div>
     </div>
   )

@@ -1,34 +1,33 @@
 import { useContext, useState } from 'react';
 import { PlanesContext } from './PlanesContext';
 import { useNavigate } from "react-router-dom";
+import useCheckedCount from './useCheckedCount';
 
 const Selection = () => {
   const { state, actions: { handleSelect } } = useContext(PlanesContext)
   const count = state.planes.length;
-  const checkedCount = !state?.select ? 0 : state.select.reduce((acc, cur) => {
-    if (cur.selected) acc++;
-    return acc;
-  }, 0);
+  const checkedCount = useCheckedCount();
   const [image, setImage] = useState("");
-  const [mount, reMount] = useState(true);
   const navigate = useNavigate();
 
+  // handle hover over a plane to display its image
   const handleHover = (e) => {
     const sel = state.planes.find(plane => plane.id === e.currentTarget.id)
 
     if (sel) setImage({ img: sel.image_uris.large, name: sel.name });
   }
+
+  // handle checkbox selection for planes
   const handleCheck = (e) => {
-    e.preventDefault();
-    console.log(e.currentTarget)
     const newList = [...state.select];
+    const checkboxId = e.currentTarget.id;
     newList.forEach(line => {
-      if (line.id === e.currentTarget.id) line.selected = e.currentTarget.checked;
+      if (line.id === checkboxId) line.selected = e.currentTarget.checked;
     })
     handleSelect(newList);
-    reMount(!mount)
   }
 
+  // handle selecting all planes
   const handleSelectAll = (e) => {
     e.preventDefault();
     const newList = [...state.select];
@@ -38,6 +37,7 @@ const Selection = () => {
     handleSelect(newList);
   }
 
+  // handle starting the game by generation a seed
   const handleStart = (e) => {
     e.preventDefault();
     const randNum = Math.floor(Math.random() * 1000000000000000);
