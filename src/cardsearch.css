@@ -59,9 +59,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: row;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, 400px); */
   gap: 35px;
   transform: translateZ(0);
   padding: 0 1.5rem;
-  flex-direction: row;
 }
 

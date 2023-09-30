@@ -16,18 +16,23 @@ const reducer = (state, action) => {
       return {
         ...state,
         planes: action.planes,
-        load: "done"
+        sets: action.sets,
       };
     case "receive-search":
       return {
         ...state,
         search: action.search,
       };
-    case "receive-select":
+    case "receive-plane-select":
       return {
         ...state,
         select: action.select,
       };
+    case "receive-set-select":
+      return {
+        ...state,
+        sets: action.sets,
+      }
     default:
       throw new Error(`Unrecognized action: ${action.type}`);
   };
@@ -47,10 +52,18 @@ export const PlanesContextProvider = ({ children }) => {
     })
   }
   // handle plane selection updates in the state
-  const handleSelect = (list) => {
+  const handlePlaneSelect = (list) => {
     dispatch({
-      type: "receive-select",
+      type: "receive-plane-select",
       select: list
+    })
+  }
+
+  // handle set selection updates in the state
+  const handleSetSelect = (list) => {
+    dispatch({
+      type: 'receive-set-select',
+      sets: list,
     })
   }
 
@@ -69,15 +82,26 @@ export const PlanesContextProvider = ({ children }) => {
       }));
 
       // for unique sets
-      const sets = new Map();
-      data.data.forEach(plane => {
-        sets.set(plane.set, plane.set_name)
-      });
-
+      const uniqueSets = [...new Set(data.data.map(plane => `${plane.set}-${plane.set_name}`))];
+      const setsData = uniqueSets.reduce((acc, cur) => {
+        acc.push({
+          set: cur.split('-')[0],
+          set_name: cur.split('-')[1],
+          selected: true,
+        })
+        acc.sort((a, b) => {
+          const nameA = a.set_name.toUpperCase();
+          const nameB = b.set_name.toUpperCase();
+          if (nameA < nameB) return -1;
+          if (nameA > nameB) return 1;
+          return 0;
+        });
+        return acc;
+      }, []);
 
       // initialize the search and selected planes state
       handleSearch([...data.data.map((plane, i) => i)]);
-      handleSelect(data.data.reduce((acc, cur) => {
+      handlePlaneSelect(data.data.reduce((acc, cur) => {
         acc.push({ name: cur.name, selected: true, id: cur.id });
         acc.sort((a, b) => {
           const nameA = a.name.toUpperCase();
@@ -88,10 +112,11 @@ export const PlanesContextProvider = ({ children }) => {
         });
         return acc;
       }, []))
+
       dispatch({
         type: 'receive-planes',
         planes: planesData,
-        sets: sets,
+        sets: setsData,
       });
     }
   }, [data, loading, error]);
@@ -105,7 +130,8 @@ export const PlanesContextProvider = ({ children }) => {
         loading,
         actions: {
           handleSearch,
-          handleSelect,
+          handlePlaneSelect,
+          handleSetSelect,
         }
       }}>
       {children}
