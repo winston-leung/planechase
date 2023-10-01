@@ -35,26 +35,28 @@ const Selection = () => {
   }
 
   // handle checkbox selection for planes
-  const handlePlaneCheckbox = (e) => {
+  const handlePlaneClick = (planeId) => {
     const newList = [...state.select];
-    const checkboxId = e.currentTarget.id;
-    newList.forEach(plane => {
-      if (plane.id === checkboxId) plane.selected = e.currentTarget.checked;
+    newList.map(plane => {
+      if (plane.id === planeId) {
+        plane.selected = !plane.selected;
+      }
+      return plane;
     })
     handlePlaneSelect(newList);
   }
 
   // handle checkbox selection for sets
-  const handleSetCheckbox = (e) => {
+  const handleSetClick = (setId) => {
     const newSetsList = [...state.sets];
     const newPlanesList = [...state.select];
-    const setId = e.currentTarget.id;
+    const newSelected = !state.sets.filter(set => set.set === setId).some(set => set.selected);
     newSetsList.forEach(set => {
-      if (set.set === setId) set.selected = e.currentTarget.checked;
-    })
+      if (set.set === setId) set.selected = newSelected;
+    });
     state.planes.forEach((plane, i) => {
-      if (plane.set === setId) newPlanesList[i].selected = e.currentTarget.checked
-    })
+      if (plane.set === setId) newPlanesList[i].selected = newSelected;
+    });
     handlePlaneSelect(newPlanesList);
     handleSetSelect(newSetsList);
   }
@@ -76,15 +78,10 @@ const Selection = () => {
               return (
                 <li
                   key={set.set}
-                  className='selection_item'
+                  className={`selection_item ${set.selected ? 'selected' : ""}`}
+                  onClick={() => handleSetClick(set.set)}
+                  id={set.set}
                 >
-                  <input
-                    type='checkbox'
-                    className='selection_checkbox'
-                    checked={set.selected}
-                    onChange={handleSetCheckbox}
-                    id={set.set}
-                  />
                   <label
                     className='selection_label'
                     htmlFor={set.set}
@@ -100,21 +97,14 @@ const Selection = () => {
             {state?.select && state.select.map(plane => {
               return (
                 <li
-                  onMouseOver={handleHover}
-                  id={plane.id}
                   key={plane.name}
-                  className='selection_item'
+                  className={`selection_item ${plane.selected ? 'selected' : ""}`}
+                  onClick={() => handlePlaneClick(plane.id)}
+                  id={plane.id}
                 >
-                  <input
-                    type='checkbox'
-                    className='selection_checkbox'
-                    checked={plane.selected}
-                    onChange={handlePlaneCheckbox}
-                    id={plane.id} />
                   <label
                     className='selection_label'
-                    htmlFor={plane.id}
-                  >
+                    htmlFor={plane.id}>
                     {plane.name}
                   </label>
                 </li>
