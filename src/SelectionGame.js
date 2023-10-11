@@ -28,20 +28,21 @@ const SelectionGame = () => {
   }
   // handle key clicks for navigation
   const handleKeyPress = (e) => {
-    if (Number(card) + 1 < checkedCount || Number(card) - 1 > 0) {
-      switch (e.key) {
-        case 'ArrowRight':
-          setNextImageIndex((prevIndex) => prevIndex + 1);
-          navigate(`/game/${path}/${Number(card) + 1}`);
-          break;
-        case 'ArrowLeft':
-          navigate(`/game/${path}/${Number(card) - 1}`);
-          break;
-        default:
-          console.log("error")
-          break;
-      }
+    if (e.key === 'ArrowRight' && Number(card) === checkedCount) return;
+    if (e.key === 'ArrowLeft' && Number(card) === 1) return;
+    switch (e.key) {
+      case 'ArrowRight':
+        setNextImageIndex((prevIndex) => prevIndex + 1);
+        navigate(`/game/${path}/${Number(card) + 1}`);
+        break;
+      case 'ArrowLeft':
+        navigate(`/game/${path}/${Number(card) - 1}`);
+        break;
+      default:
+        console.log("error")
+        break;
     }
+
   }
   useEventListener('keydown', handleKeyPress);
 

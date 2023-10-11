@@ -3,20 +3,22 @@ import { PlanesContext } from './PlanesContext';
 import { useNavigate } from "react-router-dom";
 import useCheckedCount from './useCheckedCount';
 import './selection.css';
+import SelectionLabel from './SelectionLabel';
+import { Tooltip } from 'react-tooltip';
 
 const Selection = () => {
   const { state, actions: { handlePlaneSelect, handleSetSelect } } = useContext(PlanesContext)
   const count = state.planes.length;
   const checkedCount = useCheckedCount();
-  const [image, setImage] = useState("");
+  // const [image, setImage] = useState("");
   const navigate = useNavigate();
 
   // handle hover over a plane to display its image
-  const handleHover = (e) => {
-    const sel = state.planes.find(plane => plane.id === e.currentTarget.id)
+  // const handleHover = (e) => {
+  //   const sel = state.planes.find(plane => plane.id === e.currentTarget.id)
 
-    if (sel) setImage({ img: sel.image_uris.large, name: sel.name });
-  }
+  //   if (sel) setImage({ img: sel.image_uris.large, name: sel.name });
+  // }
 
   // handle selecting all planes
   const handleSelectAll = (e) => {
@@ -96,28 +98,13 @@ const Selection = () => {
           <ul className='selection_list planes'>
             {state?.select && state.select.map(plane => {
               return (
-                <li
-                  key={plane.name}
-                  className={`selection_item ${plane.selected ? 'selected' : ""}`}
-                  onClick={() => handlePlaneClick(plane.id)}
-                  id={plane.id}
-                >
-                  <label
-                    className='selection_label'
-                    htmlFor={plane.id}>
-                    {plane.name}
-                  </label>
-                </li>
+                <SelectionLabel plane={plane} clickEvent={handlePlaneClick} key={plane.name} />
               )
             })}
+            <Tooltip className="selection_tooltip_popup" id="my-tooltip" />
           </ul>
         </form>
       </div >
-      {/* <div className='selection_maindiv'>
-        <div className='selection_imgdiv'>
-          {image ? <img className='selection_preview' src={image.img} alt={image.name} /> : ""}
-        </div>
-      </div> */}
     </div >
   );
 }

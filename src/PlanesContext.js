@@ -100,7 +100,7 @@ export const PlanesContextProvider = ({ children }) => {
       }, []);
 
       // initialize the search and selected planes state
-      handleSearch([...data.data.map((plane, i) => i)]);
+      handleSearch([...data.data.map((_, i) => i)]);
       handlePlaneSelect(data.data.reduce((acc, cur) => {
         acc.push({ name: cur.name, selected: true, id: cur.id });
         acc.sort((a, b) => {

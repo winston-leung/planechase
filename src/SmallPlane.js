@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { PlanesContext } from './PlanesContext';
 import './smallplane.css';
 import useMountTransition from './useMoutTransition'
+import useSeperateText from './useSeperateText';
 
 const SmallPlane = ({ planeId }) => {
   const { state } = useContext(PlanesContext)
@@ -11,17 +12,7 @@ const SmallPlane = ({ planeId }) => {
   const isMounted = Boolean(planeId || planeId === 0);
   const hasTransitionedIn = useMountTransition(isMounted, 500);
 
-  // extract the chaos text if it exists
-  const chaosIndex = state.planes[planeId].oracle_text.indexOf("Whenever chaos ensues")
-  let oracleText = "";
-  let chaosText = "";
-  if (chaosIndex !== -1) {
-    oracleText = state.planes[planeId].oracle_text.slice(0, chaosIndex);
-    chaosText = state.planes[planeId].oracle_text.slice(chaosIndex)
-  } else {
-    oracleText = state.planes[planeId].oracle_text;
-  }
-
+  const { oracleText, chaosText } = useSeperateText(state.planes[planeId].oracle_text)
 
   return (
     <a className={`main_card ${hasTransitionedIn && 'show'}`} href={`/plane/${state.planes[planeId].id}`} >
@@ -41,7 +32,7 @@ const SmallPlane = ({ planeId }) => {
             <p>
               {oracleText}
             </p>
-            {chaosIndex !== -1 && (
+            {chaosText.length > 0 && (
               <p>
                 {chaosText}
               </p>
