@@ -47,7 +47,10 @@ body {
 }
 
 :root {
-  --font: 'Roboto', sans-serif
+  --font: 'Roboto', sans-serif;
+	--primary_color: #DDDDDD;
+	--secondary_color: #696969;
+	--tertiary_color: #32CD32;
 }
 
 

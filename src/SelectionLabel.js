@@ -23,7 +23,7 @@ const SelectionLabel = ({ plane, clickEvent }) => {
         data-tooltip-id="my-tooltip"
         data-tooltip-variant="info"
         data-tooltip-html={`${oracleText} ${chaosText.length > 0 && `<hr /> ${chaosText}`}`}
-        className="selection_tooltip"
+        className={`selection_tooltip ${plane.selected ? 'selected' : ""}`}
         id="tooltip"
       >
         <p>

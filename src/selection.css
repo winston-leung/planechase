@@ -7,6 +7,19 @@
   padding: 0 0 0 3rem;
 }
 
+.selection_button:first-child {
+  margin-right: 8px;
+}
+
+.selection_button {
+  border-radius: 16px;
+  font-family: var(--font);
+  font-size: 16px;
+  background-color: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
 .selection_form > p {
   font-family: var(--font);
 }
@@ -27,10 +40,18 @@
 }
 
 .selection_item {
-  border: solid 1px black;
+  border: solid 1px var(--secondary_color);
+  /* color: var(--secondary_color); */
   font-family: var(--font);
   border-radius: 16px;
   overflow: hidden;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+}
+
+.selection_item:hover {
+  transform: scale(1.015);
+  outline: 4px solid var(--tertiary_color);
 }
 
 .selection_list.sets > .selection_item{
@@ -44,8 +65,15 @@
   padding-left: 10px;
 }
 
+.selection_item.selected {
+  color: white;
+  background-color: var(--secondary_color);
+  border: solid 1px var(--secondary_color);
+}
+
 .selection_label {
   padding: 5px 0;
+  cursor: pointer;
 }
 
 .selection_tooltip {
@@ -55,8 +83,13 @@
   align-items: center;
   justify-content: center;
   width: 16px;
-  border-left: 1px black solid;
+  border-left: 1px solid var(--secondary_color) ;
 }
+
+.selection_tooltip.selected {
+  border-left: 1px solid white;
+}
+
 
 .selection_tooltip > p {
   /* display: inline-block; */
@@ -66,4 +99,5 @@
 
 .selection_tooltip_popup {
   max-width: 400px;
+  line-height: 1.2;
 }

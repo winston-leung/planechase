@@ -2,7 +2,9 @@
 // extract the chaos text if it exists
 const useSeperateText = (text) => {
   let chaosIndex = -1;
-  const oddIndex = text.indexOf("Will of the council");
+  let oddIndex = -1;
+  if (text.indexOf("Will of the council")) oddIndex = text.indexOf("Will of the council");
+  if (text.indexOf("When chaos ensues")) oddIndex = text.indexOf("When chaos ensues");
   if (oddIndex !== -1) {
     chaosIndex = oddIndex;
   } else {

@@ -87,7 +87,7 @@ export const PlanesContextProvider = ({ children }) => {
         acc.push({
           set: cur.split('-')[0],
           set_name: cur.split('-')[1],
-          selected: true,
+          selected: false,
         })
         acc.sort((a, b) => {
           const nameA = a.set_name.toUpperCase();
@@ -102,7 +102,7 @@ export const PlanesContextProvider = ({ children }) => {
       // initialize the search and selected planes state
       handleSearch([...data.data.map((_, i) => i)]);
       handlePlaneSelect(data.data.reduce((acc, cur) => {
-        acc.push({ name: cur.name, selected: true, id: cur.id });
+        acc.push({ name: cur.name, selected: false, id: cur.id });
         acc.sort((a, b) => {
           const nameA = a.name.toUpperCase();
           const nameB = b.name.toUpperCase();

@@ -22,11 +22,23 @@ const Selection = () => {
 
   // handle selecting all planes
   const handleSelectAll = (e) => {
-    const newList = [...state.select];
-    newList.forEach(line => {
-      line.selected = true;
+    // const newList = [...state.select];
+    // newList.forEach(line => {
+    //   line.selected = true;
+    // })
+    // handlePlaneSelect(newList);
+    e.preventDefault();
+
+    const newSetsList = [...state.sets];
+    const newPlanesList = [...state.select];
+    newSetsList.forEach(set => {
+      set.selected = true;
+    });
+    newPlanesList.forEach(plane => {
+      plane.selected = true
     })
-    handlePlaneSelect(newList);
+    handlePlaneSelect(newPlanesList);
+    handleSetSelect(newSetsList);
   }
 
   // handle starting the game by generation a seed
@@ -67,9 +79,9 @@ const Selection = () => {
     <div className='selection_main'>
       <div className='selection_sidebar'>
         <form className='selection_form'>
-          <div className='selection_buttons'>
-            <button onClick={handleStart}>Start</button>
-            <button onClick={handleSelectAll}>Select All</button>
+          <div className='selection_button_wrapper'>
+            <button onClick={handleStart} className='selection_button'>Start</button>
+            <button onClick={handleSelectAll} className='selection_button'>Select All</button>
           </div>
           <p>
             Selected: {checkedCount} of {count}
@@ -93,6 +105,9 @@ const Selection = () => {
                 </li>
               )
             })}
+            <div>
+              <div />
+            </div>
           </ul >
           <p>Planes:</p>
           <ul className='selection_list planes'>

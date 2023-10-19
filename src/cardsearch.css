@@ -11,12 +11,12 @@
   top: 2.25%;
   right: 4.5%;
   font-family: var(--font);
-  background-color: rgb(221, 221, 221);
+  background-color: var(--primary_color);
   height: 1.75em;
   width: 200px;
   padding: 4px 10px;
   /* border-radius: 16px; */
-  border: solid rgb(221, 221, 221) 4px; 
+  border: solid var(--primary_color) 4px; 
   outline: none;
   transition: border 0.75s ease;
   
@@ -24,25 +24,25 @@
 
 @keyframes circularAnim {
   from {
-    border-color: rgb(221, 221, 221);
+    border-color: var(--primary_color);
     }
   25% {
     border-top-color: black;
-    border-right-color: rgb(221, 221, 221);
-    border-bottom-color: rgb(221, 221, 221);
-    border-left-color: rgb(221, 221, 221);
+    border-right-color: var(--primary_color);
+    border-bottom-color: var(--primary_color);
+    border-left-color: var(--primary_color);
   }
   50% {
     border-top-color: black;
     border-right-color: black;
-    border-bottom-color: rgb(221, 221, 221);
-    border-left-color: rgb(221, 221, 221);
+    border-bottom-color: var(--primary_color);
+    border-left-color: var(--primary_color);
   }
   75% {
     border-top-color: black;
     border-right-color: black;
     border-bottom-color: black;
-    border-left-color: rgb(221, 221, 221);
+    border-left-color: var(--primary_color);
   }
   to {
     border-color: black;
